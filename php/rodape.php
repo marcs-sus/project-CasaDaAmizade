@@ -1,77 +1,46 @@
+<footer>
+    <div class="container">
+        <div class="footer-img">
+            <img src="img/logo.png" alt="Descrição da imagem">
+        </div>
+        
+        <div class="formulario-contato">
+            <h2>Fale Conosco</h2>
+            <form method="post">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        
+        <div class="detalhes-contato">
+            <h2>Contatos</h2>
+            <p><strong>Telefone:</strong> (47) 99938-3195</p>
+            <p><strong>Email:</strong> casaamizade@gmail.com</p>
+        </div>
+        
+        <div class="localizacao">
+            <h2>Localização</h2>
+            <p>Lontras, Centro</p>
+        </div>
+        
+        <div class="redes-sociais">
+            <h2>Redes Sociais</h2>
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="youtube.png" alt="YouTube"></a>
+        </div>
+    </div>
 
+    <div class="rodape-inferior">
+        <p>Todos os Direitos Reservados Casa da Amizade © 2024</p>
+    </div>
+</footer>
 
-
-<nav class="roda">
-    <ul>
-        <li> <img src=""> </li>
-        <li> CASA DA AMIZADE DE LONTRAS </li>
-    </ul>
-
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li>
-            Anônimo
-            <input type="checkbox">
-            <input type="submit" value="Enviar"> 
-        </li>
-
-    </ul>
-    
-    <ul></ul>
-</nav>
-
-
-
-
-
-
-
-goza
-
-
-
-<!doctype html>
-<html lang="en">
-    <head>
-        <title>Title</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-    </head>
-
-    <body>
-        <header>
-            <!-- place navbar here -->
-        </header>
-        <main></main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
-
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-    </body>
-</html>

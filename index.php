@@ -27,6 +27,28 @@
         crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/rodape.css">
+    <link rel="script" href="js/anonimo.js">
+    <script src="/path/to/conditional-fields.umd.js"></script>
+    
+    <script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', () => {
+    window.setupConditionalFields([
+      {
+        trigger: {
+          selector: '#anonimo',
+          value: 'unchecked',
+        },
+        affected: {
+          fields: [
+            { selector: '#nome', required: true },
+            { selector: '#email', required: false }
+          ],
+        },
+      },
+    ]);
+  });
+</script>
+
 </head>
 
 <body>

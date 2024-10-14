@@ -26,6 +26,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
         crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/rodape.css">
     <link rel="script" href="js/anonimo.js">
     <script src="/path/to/conditional-fields.umd.js"></script>

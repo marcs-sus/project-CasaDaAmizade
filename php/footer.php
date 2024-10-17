@@ -51,7 +51,7 @@
 </footer>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         const anonimoCheckbox = document.getElementById("anonimo");
         const camposContato = document.getElementById("campos-contato");
 

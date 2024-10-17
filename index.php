@@ -60,8 +60,10 @@
   </main>
 
   <!-- Footer section -->
+
+  
   <footer>
-    <?php include 'footer.php'; ?>
+    <?php include 'php/footer.php'; ?>
   </footer>
 
   <!-- Bootstrap JS -->

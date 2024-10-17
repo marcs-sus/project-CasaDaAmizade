@@ -65,6 +65,8 @@
         function toggleCamposContato() {
             if (anonimoCheckbox.checked) {
                 camposContato.classList.add("hidden");
+                document.getElementById('nome').value = '';
+                document.getElementById('email').value = '';
                 campos.forEach(campo => {
                     campo.removeAttribute("required");
                 });

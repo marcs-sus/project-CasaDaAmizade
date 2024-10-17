@@ -16,16 +16,7 @@
     <!-- Main section -->
     <main>
         <!-- Navigation section -->
-        <section id="navigation">
-            <nav>
-                <a href="index.php">Home</a>
-                <a href="about.php">Quem Somos</a>
-                <a href="activities.php">Atividade></a>
-                <a href="transparency.php">Transparência</a>
-                <a href="contact.php">Fale Conosco</a>
-                <a href="donations.php">Doe Agora!</a>
-            </nav>
-        </section>
+        <?php include "php/navbar.php" ?>
 
 
     </main>

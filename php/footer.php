@@ -1,5 +1,3 @@
-
-
 <footer>
     <div class="container">
         <div class="footer-image">
@@ -12,9 +10,9 @@
                 <div id="campos-contato">
                     <!-- nome -->
                     <input class="form-control" type="text" id="nome" name="nome" placeholder="Nome" required>
-                
-                        <!-- email -->
-                        <input type="email" id="email" name="email" placeholder="E-mail" class="form-control" required>
+
+                    <!-- email -->
+                    <input type="email" id="email" name="email" placeholder="E-mail" class="form-control" required>
 
                 </div>
                 <!-- checkbox -->
@@ -24,40 +22,42 @@
                 </label>
                 <br>
                 <!-- textarea -->
-                <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem . . ." required></textarea>
-                
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem . . ."
+                    required></textarea>
+
                 <input class="btn btn-outline-light" type="submit" value="Enviar">
             </form>
         </div>
-
-        <div class="separa"></div>
-
-        <div class="detalhes-contato">
-            <h5>Contatos</h5>
-            <p><strong>Telefone:</strong> (47) 99938-3195</p>
-            <p><strong>Email:</strong> casaamizade@gmail.com</p>
-        </div>
-
-        <div class="localizacao">
-            <h5>Localização</h5>
-            <p>Lontras, Centro</p>
-        </div>
-
-        <div class="redes-sociais">
-            <h5>Redes Sociais</h5>
-            <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="img/youtube.png" alt="YouTube"></a>
-        </div>
-    </div>
-
-    <div class="rodape-inferior">
-        <p>Todos os Direitos Reservados Casa da Amizade © 2024</p>
-    </div>
 </footer>
-<!-- sistema mensagem anônima -->
+
+<div class="separa"></div>
+
+<div class="detalhes-contato">
+    <h5>Contatos</h5>
+    <p><strong>Telefone:</strong> (47) 99938-3195</p>
+    <p><strong>Email:</strong> casaamizade@gmail.com</p>
+</div>
+
+<div class="localizacao">
+    <h5>Localização</h5>
+    <p>Lontras, Centro</p>
+</div>
+
+<div class="redes-sociais">
+    <h5>Redes Sociais</h5>
+    <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+    <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+    <a href="#"><img src="img/youtube.png" alt="YouTube"></a>
+</div>
+</div>
+
+<div class="rodape-inferior">
+    <p>Todos os Direitos Reservados Casa da Amizade © 2024</p>
+</div>
+
+<!-- Sistema mensagem anônima -->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         const anonimoCheckbox = document.getElementById("anonimo");
         const camposContato = document.getElementById("campos-contato");
         const campos = camposContato.querySelectorAll("input, textarea");
@@ -82,10 +82,11 @@
     });
 </script>
 
-<!-- deixar letras brancas -->
-
+<!-- Deixar letras brancas -->
 <style>
-    h5, p, label {
+    h5,
+    p,
+    label {
         color: white;
     }
 </style>

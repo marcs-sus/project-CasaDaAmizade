@@ -25,16 +25,7 @@
   <!-- Main section -->
   <main>
     <!-- Navigation section -->
-    <section id="navigation">
-      <nav>
-        <a href="index.php">Home</a>
-        <a href="about.php">Quem Somos</a>
-        <a href="activities.php">Atividade></a>
-        <a href="transparency.php">Transparência</a>
-        <a href="contact.php">Fale Conosco</a>
-        <a href="donations.php">Doe Agora!</a>
-      </nav>
-    </section>
+    <?php include "php/navbar.php" ?>
 
     <!-- Banner/Hero section -->
     <section id="hero">
@@ -60,10 +51,7 @@
   </main>
 
   <!-- Footer section -->
-   
-
-    <?php include 'php/footer.php'; ?>
-
+  <?php include 'php/footer.php'; ?>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"

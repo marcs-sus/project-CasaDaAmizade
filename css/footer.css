@@ -12,7 +12,7 @@ footer {
 
 .footer-image {
     flex: 1;
-    max-width: 150px;
+    max-width: 200px;
     margin-right: 20px;
 }
 
@@ -23,7 +23,18 @@ footer {
 
 .formulario-contato, .detalhes-contato, .localizacao, .redes-sociais {
     flex: 1;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.separa {
+    flex: 1;
+    max-width: 10px;
+}
+
+.redes-sociais img {
+    width: 6.5vh;
+    height: 6.5vh;
+
 }
 
 .rodape-inferior {

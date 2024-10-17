@@ -3,9 +3,9 @@
 <footer>
     <div class="container">
         <div class="footer-image">
-            <img src="img/logo.png" alt="Descrição da imagem">
+            <img src="img/logo.png" alt="Logo">
         </div>
-
+        <!-- form -->
         <div class="formulario-contato" action="#">
             <h5 id="categoria">Fale Conosco</h5>
             <form method="post">
@@ -25,12 +25,12 @@
                 <br>
                 <!-- textarea -->
                 <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem . . ." required></textarea>
-                <br>
-                <input type="submit" value="Enviar">
+                
+                <input class="btn btn-outline-light" type="submit" value="Enviar">
             </form>
         </div>
 
-        <div class="brr"></div>
+        <div class="separa"></div>
 
         <div class="detalhes-contato">
             <h5>Contatos</h5>
@@ -45,9 +45,9 @@
 
         <div class="redes-sociais">
             <h5>Redes Sociais</h5>
-            <a href="#"><img src="facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="img/youtube.png" alt="YouTube"></a>
         </div>
     </div>
 
@@ -55,7 +55,7 @@
         <p>Todos os Direitos Reservados Casa da Amizade © 2024</p>
     </div>
 </footer>
-
+<!-- sistema mensagem anônima -->
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const anonimoCheckbox = document.getElementById("anonimo");
@@ -79,6 +79,8 @@
         anonimoCheckbox.addEventListener("change", toggleCamposContato);
     });
 </script>
+
+<!-- deixar letras brancas -->
 
 <style>
     h5, p, label {

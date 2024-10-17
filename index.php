@@ -60,11 +60,10 @@
   </main>
 
   <!-- Footer section -->
+   
 
-  
-  <footer>
     <?php include 'php/footer.php'; ?>
-  </footer>
+
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"

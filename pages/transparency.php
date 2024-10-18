@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/navbar.css">
+
+    <link rel="stylesheet" href="../css/transparency.css">
 </head>
 
 <body>
@@ -24,26 +26,32 @@
     <!-- Main section -->
     <main>
         <!-- Transparency section -->
-         <section>
-         <div class="container">
-        <div class="content">
-            <h1>TRANSPARÊNCIA</h1>
-            <p>
-                Nossa organização tem muito zelo com a transparência da administração de recursos
-                para todos os envolvidos, e para isso sempre colocamos à disposição do público
-                nossos relatórios de auditoria contábil independente. Confira!
-            </p>
-            <ul>
-                <li><a href="https://casadaamizade.org.br/wp-content/uploads/2024/05/PARECER-2023-ASSOC.AMIGOS-DA-CASA-DA-AMIZADE-assinado-Seta-e-CA-Clicksign.pdf" target="_blank">Relatório de Auditoria Contábil Independente 2023</a></li>
-                <li><a href="https://casadaamizade.org.br/wp-content/uploads/2023/06/Caderno-digital-Parecer-e-demonstracoes-contabeis-Clicksign.pdf" target="_blank">Relatório de Auditoria Contábil Independente 2022</a></li>
-                <li><a href="https://casadaamizade.org.br/wp-content/uploads/2023/06/Caderno-digital-Parecer-e-demonstracoes-contabeis-Clicksign.pdf" target="_blank">Relatório de Auditoria Contábil Independente 2021</a></li>
-                <li><a href="https://casadaamizade.org.br/wp-content/uploads/2023/05/Caderno-de-Dfs-2020-Final-29.07.2021-Assinado.pdf" target="_blank">Relatório de Auditoria Contábil Independente 2020</a></li>
-                <li><a href="https://casadaamizade.org.br/wp-content/uploads/2023/05/audit-2018.pdf" target="_blank">Relatório de Auditoria Contábil Independente 2019</a></li>
-                <li><a href="https://casadaamizade.org.br/wp-content/uploads/2023/05/audit-2018.pdf" target="_blank">Relatório de Auditoria Contábil Independente 2018</a></li>
-            </ul>
-        </div>
-    </div>
-         </section>
+        <section>
+            <div class="container">
+                <div class="content">
+                    <h1>TRANSPARÊNCIA</h1>
+                    <p>
+                        Nossa organização tem muito zelo com a transparência da administração de recursos
+                        para todos os envolvidos, e para isso sempre colocamos à disposição do público
+                        nossos relatórios de auditoria contábil independente. Confira!
+                    </p>
+                    <ul>
+                        <li><a href="https://casadaamizade.org.br/wp-content/uploads/2024/05/PARECER-2023-ASSOC.AMIGOS-DA-CASA-DA-AMIZADE-assinado-Seta-e-CA-Clicksign.pdf"
+                                target="_blank">Relatório de Auditoria Contábil Independente 2023</a></li>
+                        <li><a href="https://casadaamizade.org.br/wp-content/uploads/2023/06/Caderno-digital-Parecer-e-demonstracoes-contabeis-Clicksign.pdf"
+                                target="_blank">Relatório de Auditoria Contábil Independente 2022</a></li>
+                        <li><a href="https://casadaamizade.org.br/wp-content/uploads/2023/06/Caderno-digital-Parecer-e-demonstracoes-contabeis-Clicksign.pdf"
+                                target="_blank">Relatório de Auditoria Contábil Independente 2021</a></li>
+                        <li><a href="https://casadaamizade.org.br/wp-content/uploads/2023/05/Caderno-de-Dfs-2020-Final-29.07.2021-Assinado.pdf"
+                                target="_blank">Relatório de Auditoria Contábil Independente 2020</a></li>
+                        <li><a href="https://casadaamizade.org.br/wp-content/uploads/2023/05/audit-2018.pdf"
+                                target="_blank">Relatório de Auditoria Contábil Independente 2019</a></li>
+                        <li><a href="https://casadaamizade.org.br/wp-content/uploads/2023/05/audit-2018.pdf"
+                                target="_blank">Relatório de Auditoria Contábil Independente 2018</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
     </main>
 </body>

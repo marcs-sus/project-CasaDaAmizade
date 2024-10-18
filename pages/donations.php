@@ -23,7 +23,7 @@
 
     <!-- Main section -->
     <main>
-        
+
         <!-- QR code section -->
         <section id="qr-code">
             <img src="" alt="QR code">

@@ -1,98 +1,97 @@
 .logo {
-    width: 160px;
-    align-items: baseline;
+  width: 160px;
+  align-items: baseline;
 }
 
 .idv-site {
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-    justify-content: center;
-    align-items: baseline;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  align-items: baseline;
 }
 
-
 header {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    background-color: #f1f1f1;
-    margin: 0px;
-    padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 30px;
 }
 
 .dropbtn {
-    background: none;
-    color: black;
-    padding: 16px;
-    font-size: 19px;
-    border: none;
-    cursor: pointer;
-    font-weight: 700;
-    border-radius: 8px;
+  background: none;
+  color: black;
+  padding: 16px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 8px;
 }
 
 .btn {
-    background: none;
-    color: black;
-    padding: 16px;
-    font-size: 19px;
-    border: none;
-    cursor: pointer;
-    font-weight: 700;
-    border-radius: 8px;
+  background: none;
+  color: black;
+  padding: 16px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  border-radius: 8px;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #c9c9c9;
+  background-color: #c9c9c9;
 }
 
 .btn:hover {
-    background-color: #c9c9c9;
+  background-color: #c9c9c9;
 }
 
-.donation{
-    padding: 12px 15px;
-    background-color: #2a307e;
-    font-size: 19px;
-    font-weight: 700;
-    color: white;
-    border: none;
-    border-radius: 8px;
+.donation {
+  padding: 12px 15px;
+  background-color: #2a307e;
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 8px;
 }
 
-.container{
-    display: flex;
-    gap: 200px;
-    align-items: center;
-    justify-content: center;
+.container {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
 }

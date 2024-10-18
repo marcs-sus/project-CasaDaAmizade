@@ -1,5 +1,5 @@
 .logo {
-    width: 20vh;
+    width: 160px;
     align-items: baseline;
 }
 
@@ -25,7 +25,7 @@ header {
     background: none;
     color: black;
     padding: 16px;
-    font-size: 2.8vh;
+    font-size: 19px;
     border: none;
     cursor: pointer;
     font-weight: 700;
@@ -36,7 +36,7 @@ header {
     background: none;
     color: black;
     padding: 16px;
-    font-size: 2.8vh;
+    font-size: 19px;
     border: none;
     cursor: pointer;
     font-weight: 700;
@@ -83,7 +83,7 @@ header {
 .donation{
     padding: 12px 15px;
     background-color: #2a307e;
-    font-size: 2.8vh;
+    font-size: 19px;
     font-weight: 700;
     color: white;
     border: none;

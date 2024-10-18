@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
         <div class="footer-image">
-            <img src="img/logo.png" alt="Logo">
+            <img src="/assets/img/logo.png" alt="Logo">
         </div>
         <!-- form -->
         <div class="formulario-contato" action="#">

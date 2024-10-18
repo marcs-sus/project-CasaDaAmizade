@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <div class="idv-site">
-            <a href="../index.php"><img src="../img/logo.png" alt="logo" class="logo"></a>
+            <a href="../index.php"><img src="../assets/img/logo.png" alt="logo" class="logo"></a>
         </div>
         <nav class="menu-upper">
             <a href="about.php"><button class="btn">Quem Somos</button></a>

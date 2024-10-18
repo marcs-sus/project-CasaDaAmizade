@@ -21,7 +21,7 @@
 
     <body>
         <!-- Header section -->
-        <?php include "../php/navbar.php" ?>
+        <?php include "../pages/navbar.php" ?>
 
         <!-- Main section -->
         <main>

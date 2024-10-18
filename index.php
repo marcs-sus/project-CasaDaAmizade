@@ -19,15 +19,10 @@
 
 <body>
   <!-- Header section -->
-  <header>
-    <h1>Casa da Amizade</h1>
-  </header>
+  <?php include "php/navbar.php" ?>
 
   <!-- Main section -->
   <main>
-    <!-- Navigation section -->
-    <?php include "php/navbar.php" ?>
-
     <!-- Banner/Hero section -->
     <section id="hero">
       <div class="principal_imagem">

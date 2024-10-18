@@ -19,7 +19,7 @@
 
 <body>
     <!-- Header section -->
-    <?php include "php/navbar.php" ?>
+    <?php include "../php/navbar.php" ?>
 
     <!-- Main section -->
     <main>

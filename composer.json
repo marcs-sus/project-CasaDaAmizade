@@ -6,28 +6,28 @@
     },
     "authors": [
         {
-            "name": "ArielJahn",
+            "name": "Ariel Jahn",
             "email": "ariel1.jahn@unidavi.edu.br"
         },
         {
             "name": "Mosquito",
-            "email": "ariel1.jahn@unidavi.edu.br"
+            "email": "rafael.schwambach@unidavi.edu.br"
         },
         {
             "name": "Ana Paula",
-            "email": "ariel1.jahn@unidavi.edu.br"
+            "email": "ana.bastos@unidavi.edu.br"
         },
         {
             "name": "Leozin",
-            "email": "ariel1.jahn@unidavi.edu.br"
+            "email": "leonardo.avila@unidavi.edu.br"
         },
         {
             "name": "Marcao",
-            "email": "ariel1.jahn@unidavi.edu.br"
+            "email": "marcos.cunha@unidavi.edu.br"
         },
         {
             "name": "Luquitos",
-            "email": "ariel1.jahn@unidavi.edu.br"
+            "email": "lucas.stopassolli@unidavi.edu.br"
         }
     ],
     "require": {}

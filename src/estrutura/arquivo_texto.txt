@@ -1,0 +1,32 @@
+Array
+(
+    [teste] => App\Estrutura\Campo Object
+        (
+            [sTipo] => 1
+            [sNome] => pao
+            [sId] => teste
+            [aAtributos] => Array
+                (
+                    [name] => pao
+                    [id] => teste
+                    [placeholder] => teste rsrs
+                    [style] => color: red; width: 300px; 
+                )
+
+            [eventos] => Array
+                (
+                    [onclick] => alert('teste')
+                )
+
+            [opcoes] => Array
+                (
+                )
+
+            [validacoes] => Array
+                (
+                )
+
+        )
+
+)
+

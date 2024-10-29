@@ -33,20 +33,20 @@
 
         <div class="detalhes-contato">
             <h5>Contatos</h5>
-            <p><img src="img/telefone.png" alt="" style="width: 3vh;"><strong>Telefone:</strong> (47) 99938-3195</p>
-            <p><img src="img/email.png" alt="" style="width: 3vh;"><strong>Email:</strong> casaamizade@gmail.com</p>
+            <p><img src="/assets/img/telefone.png" alt="" style="width: 3vh;"><strong>Telefone:</strong> (47) 99938-3195</p>
+            <p><img src="/assets/img/email.png" alt="" style="width: 3vh;"><strong>Email:</strong> casaamizade@gmail.com</p>
         </div>
 
         <div class="localizacao">
             <h5>Localização</h5>
-            <p><img src="img/local.png" alt="" style="width: 3vh;">Lontras, Centro</p>
+            <p><img src="/assets/img/local.png" alt="" style="width: 3vh;">Lontras, Centro</p>
         </div>
 
         <div class="redes-sociais">
             <h5>Redes Sociais</h5>
-            <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
-            <a href="#"><img src="img/youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="/assets/img/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="/assets/img/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="/assets/img/youtube.png" alt="YouTube"></a>
         </div>
     </div>
 

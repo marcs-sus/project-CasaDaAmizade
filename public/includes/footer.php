@@ -1,5 +1,5 @@
 <footer>
-    <div class="container">
+    <div class="tudo">
         <div class="footer-image">
             <img src="/assets/img/logo.png" alt="Logo">
         </div>
@@ -25,11 +25,12 @@
                 <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem . . ."
                     required></textarea>
 
-                <input class="btn btn-outline-light" type="submit" value="Enviar">
+                <!-- enviar -->
+                <input class="fbutao" type="submit" value="Enviar">
             </form>
         </div>
 
-        <div class="separa"></div>
+        <div class="separa"><!-- deixar bonito ❤️ --></div>
 
         <div class="detalhes-contato">
             <h5>Contatos</h5>

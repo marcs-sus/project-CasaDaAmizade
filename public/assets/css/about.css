@@ -10,7 +10,7 @@ body {
   text-align: center;
   align-items: center;
   width: 105vw;
-  height: 44.50vh;
+  height: 44.5vh;
   object-fit: cover;
   background-image: url(img/fundoprincipal.jpg);
   width: 100%;
@@ -18,7 +18,7 @@ body {
   background-position: center;
   position: relative;
   left: 0;
-  right: 0;   
+  right: 0;
 }
 
 .fundoprincipal h1 {
@@ -62,7 +62,7 @@ body {
   justify-content: center;
 }
 
-.voluntariado_imagem>img {
+.voluntariado_imagem > img {
   display: flex;
   width: 100%;
   height: 100%;
@@ -90,7 +90,6 @@ h2 {
   line-height: 1.4;
   max-width: 88vh;
   margin: 0 auto;
-
 }
 
 .association-members {

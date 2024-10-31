@@ -1,66 +1,68 @@
 footer {
-    background-color: rgb(61, 66, 154); 
-    padding: 10px;
+  background-color: rgb(61, 66, 154);
+  padding: 10px;
 }
 
 .f-tudo {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .f-footer-image {
-    flex: 1;
-    max-width: 200px;
-    min-width: 50px;
+  flex: 1;
+  max-width: 200px;
+  min-width: 50px;
 }
 
 .f-footer-image img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
-.f-formulario-contato, .f-detalhes-contato, .f-localizacao, .f-redes-sociais {
-    flex: 1;
-    margin-bottom: 10px;
+.f-formulario-contato,
+.f-detalhes-contato,
+.f-localizacao,
+.f-redes-sociais {
+  flex: 1;
+  margin-bottom: 10px;
 }
 
 .f-split {
-    flex: 1;
-    max-width: 10px;
+  flex: 1;
+  max-width: 10px;
 }
 
 .f-redes-sociais img {
-    max-width: 50px;
-    max-height: 50px;
-
+  max-width: 50px;
+  max-height: 50px;
 }
 
 .f-rodape-inferior {
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
 }
 
 .f-hidden {
-    display: none;
+  display: none;
 }
 
 /*Button*/
 
 .f-button {
-    background-color: transparent;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px; 
-    font-size: 16px; 
-    cursor: pointer; 
-    transition: background-color 0.3s, color 0.3s
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .f-button:hover {
-    background-color: white;
-    color: black; 
+  background-color: white;
+  color: black;
 }

@@ -4,10 +4,10 @@
 }
 
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   min-height: 100vh;
 }
-
 
 .etica_principal_imagem {
   width: 100%;
@@ -24,13 +24,13 @@ body {
 
   text-transform: uppercase;
   font-weight: 400;
- 
+
   padding-top: 140px;
   font-size: 70px;
-  
+
   margin: 0 auto 0 auto;
   max-width: 1095px;
-  
+
   padding-left: 0px;
   display: flex;
   justify-content: center;
@@ -41,8 +41,6 @@ body {
   .etica_principal_imagem_titulo {
     width: 1095px;
   }
-
-
 }
 @media (max-width: 1095px) {
   .etica_principal_imagem {
@@ -50,10 +48,8 @@ body {
     height: 300px;
     max-height: 300px;
     background-position: 50% 50%;
-  
   }
 }
-
 
 .etica_principal_texto {
   margin-top: 15px;
@@ -67,7 +63,6 @@ body {
   padding-bottom: 30px;
 }
 
-
 .etica_principal_grid {
   max-width: 1150px;
   gap: 15px;
@@ -79,46 +74,41 @@ body {
   padding: 0 15px 0 15px;
 }
 
-.etica_principal_grid_card{
+.etica_principal_grid_card {
   width: 230px;
   height: 187px;
-  background-color: #ECEDF5;
+  background-color: #ecedf5;
   padding: 15px;
-  
 }
 
-.etica_principal_grid_card > h3{
+.etica_principal_grid_card > h3 {
   color: #000c7c;
   text-align: center;
   padding: 10px 0 15px 0;
-  line-height: 1.5em
+  line-height: 1.5em;
 }
 
 .etica_principal_grid_card > p {
   display: flex;
   text-align: center;
   justify-content: center;
-  
-  
 }
 
 .etica_principal_grid_link {
-  
   display: flex;
   width: 1085px;
   text-align: right;
   justify-content: right;
   margin-top: 15px;
-  
 }
 
-.etica_principal_grid_link > a{
+.etica_principal_grid_link > a {
   text-align: right;
   color: #3d429a;
   text-decoration: none;
 }
 
-.etica_principal_grid_link > a:hover{
+.etica_principal_grid_link > a:hover {
   text-decoration: underline;
 }
 
@@ -131,6 +121,5 @@ body {
     max-width: 750px;
     text-align: center;
     justify-content: center;
-    
   }
 }

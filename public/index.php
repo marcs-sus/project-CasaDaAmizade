@@ -9,12 +9,6 @@ class Home
 {
 	private $aCampos = [];
 
-	/*************  ✨ Codeium Command ⭐  *************/
-	/**
-	 * Home class constructor.
-	 * Initializes the class by calling the renderiza method.
-	 */
-	/******  e1cdbabf-eb97-42f4-b7eb-b6648c3f60ef  *******/
 	public function __construct()
 	{
 		$this->renderiza();
@@ -94,7 +88,7 @@ class Home
 						<div class="n-dropdown">
 							<a href="/pages/transparency.php"><button class="n-dropbtn">Transparência</button></a>
 							<div class="n-dropdown-content">
-								<a href="#">Ética</a>
+								<a href="/pages/ethics.php">Ética</a>
 							</div>
 						</div>
 						<a href="/pages/contact.php"><button class="n-btn">Fale Conosco</button></a>
@@ -117,7 +111,7 @@ class Home
 				<section class="principal_grid">
 					<div class="principal_grid_not_grande">
 						<span class="principal_grid_not_grande_caixa">
-							<img src="imagens/noticia01.jpeg" alt="Notícia 1">
+							<img src="assets/img/noticia01.jpeg" alt="Notícia 1">
 							<p>Posse da nova diretoria Gestão 2024/2025. Quadro composto por presidente, vice-presidente, duas
 								secretárias, duas tesoureiras e dois protocolos.</p><span><i class="fa-regular fa-clock"></i>
 								07/10/2024 15h30</span>
@@ -127,7 +121,7 @@ class Home
 					<div class="principal_grid_not_conjunto">
 						<div class="principal_grid_not_conjunto_1">
 							<span class="principal_grid_not_grande_caixa">
-								<img src="imagens/noticia02.jpeg" alt="Notícia 2">
+								<img src="assets/img/noticia02.jpeg" alt="Notícia 2">
 								<p>Venda de Pastéis da Casa da Amizade para arrecadação de Fundos em auxilio aos Bombeiros
 									Voluntários de Lontras.</p><span><i class="fa-regular fa-clock"></i> 07/10/2024 15h30</span>
 							</span>
@@ -135,7 +129,7 @@ class Home
 						</div>
 						<div class="principal_grid_not_conjunto_2">
 							<span class="principal_grid_not_grande_caixa">
-								<img src="imagens/noticia03.jpeg" alt="Notícia 3">
+								<img src="assets/img/noticia03.jpeg" alt="Notícia 3">
 								<p>Projeto da Casa da Amizade de Lontras envolve escola e consegue materiais esportivos e
 									pedagógicos para os alunos! </p><span><i class="fa-regular fa-clock"></i> 07/10/2024
 									15h30</span>
@@ -144,7 +138,7 @@ class Home
 						</div>
 					</div>
 				</section>
-				<a href="noticias.html" class="principal_botao">Últimas notícias</a>
+				<a href="/pages/news.php" class="principal_botao">Últimas notícias</a>
 			</main>
 
 			<!-- Footer section -->

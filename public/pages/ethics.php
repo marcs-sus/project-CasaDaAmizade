@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ética</title>
-    <link rel="stylesheet" href="ethics.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/ethics.css">
 </head>
 
 <body>
@@ -55,7 +56,6 @@
                     href="https://casadaamizade.org.br/wp-content/uploads/2023/05/CodigoEticaConduta.pdf"
                     target="_blank">Ver o Código de Ética e Conduta completo</a></span>
         </section>
-
     </main>
 </body>
 

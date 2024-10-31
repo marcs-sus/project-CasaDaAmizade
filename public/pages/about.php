@@ -23,10 +23,11 @@
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap">
 
     <!-- Additional Stylesheets -->
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/normalize.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="/assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
+
+    <link rel="stylesheet" href="../assets/css/about.css">
 </head>
 
 <body>
@@ -34,7 +35,7 @@
     <?php include "../includes/navbar.php" ?>
 
     <!-- Main section -->
-    <main>
+    <main class="about-main">
         <!-- Fundo principal -->
         <section>
             <div class="fundoprincipal">
@@ -44,12 +45,13 @@
                 comunidade através do desenvolvimento de atividades de caráter filantrópico. </p>
         </section>
 
+        <!-- Layout -->
         <section>
             <div class="layout">
                 <div class="row">
                     <div class="voluntariado">
                         <h2>VOLUNTARIADO</h2>
-                        <div class="voluntariado_imagem"><img src="img/voluntariado.jpeg" alt="Imagem de voluntários">
+                        <div class="voluntariado_imagem"><img src="../assets/img/voluntariado.jpeg" alt="Imagem de voluntários">
                         </div>
                         <p class="legendadisplay">
                             Todos os envolvidos trabalham de forma voluntária em nossas atividades, podendo ser
@@ -64,7 +66,7 @@
 
                     <div class="quem-ajudamos">
                         <h2>QUEM AJUDAMOS</h2>
-                        <div class="voluntariado_imagem"><img src="img/quemajudamos].jpeg"
+                        <div class="voluntariado_imagem"><img src="../assets/img/quemajudamos].jpeg"
                                 alt="Imagem de quem foi ajudado">
                         </div>
                         <p class="legendadisplay">
@@ -80,6 +82,7 @@
             </div>
         </section>
 
+        <!-- Members -->
         <section>
             <div class="association-members">
                 <h3 class="section-title">Associadas</h3>

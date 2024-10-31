@@ -1,9 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body {
+.principal {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -12,11 +7,6 @@ body {
     "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   background-color: #f8f9ff;
   min-height: 100vh;
-}
-
-.principal {
-  display: flex;
-  flex-direction: column;
 }
 
 .principal_capa {

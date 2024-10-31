@@ -9,7 +9,7 @@
             <div class="n-dropdown">
                 <a href="../pages/transparency.php"><button class="n-dropbtn">Transparência</button></a>
                 <div class="n-dropdown-content">
-                    <a href="#">Ética</a>
+                    <a href="../pages/ethics.php">Ética</a>
                 </div>
             </div>
             <a href="../pages/contact.php"><button class="n-btn">Fale Conosco</button></a>

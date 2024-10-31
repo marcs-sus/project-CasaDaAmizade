@@ -1,9 +1,9 @@
-.logo {
+.n-logo {
   width: 160px;
   align-items: baseline;
 }
 
-.idv-site {
+.n-idv-site {
   display: flex;
   padding: 0px;
   margin: 0px;
@@ -20,7 +20,7 @@ header {
   padding: 30px;
 }
 
-.dropbtn {
+.n-dropbtn {
   background: none;
   color: black;
   padding: 16px;
@@ -31,7 +31,7 @@ header {
   border-radius: 8px;
 }
 
-.btn {
+.n-btn {
   background: none;
   color: black;
   padding: 16px;
@@ -42,12 +42,12 @@ header {
   border-radius: 8px;
 }
 
-.dropdown {
+.n-dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content {
+.n-dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -56,30 +56,30 @@ header {
   z-index: 1;
 }
 
-.dropdown-content a {
+.n-dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {
+.n-dropdown-content a:hover {
   background-color: #f1f1f1;
 }
 
-.dropdown:hover .dropdown-content {
+.n-dropdown:hover .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
+.n-dropdown:hover .dropbtn {
   background-color: #c9c9c9;
 }
 
-.btn:hover {
+.n-btn:hover {
   background-color: #c9c9c9;
 }
 
-.donation {
+.n-donation {
   padding: 12px 15px;
   background-color: #2a307e;
   font-size: 19px;
@@ -89,7 +89,7 @@ header {
   border-radius: 8px;
 }
 
-.container {
+.n-container {
   display: flex;
   gap: 200px;
   align-items: center;

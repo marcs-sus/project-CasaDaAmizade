@@ -35,6 +35,10 @@
             <!-- about code here -->
         </section>
     </main>
+
+    <!-- Footer section -->
+    <?php include '../includes/footer.php'; ?>
+
 </body>
 
 </html>

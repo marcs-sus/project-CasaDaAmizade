@@ -1,21 +1,21 @@
 <header>
-    <div class="container">
-        <div class="idv-site">
-            <a href="../index.php"><img src="../assets/img/logo.png" alt="logo" class="logo"></a>
+    <div class="n-container">
+        <div class="n-idv-site">
+            <a href="../index.php"><img src="../assets/img/logo.png" alt="logo" class="n-logo"></a>
         </div>
-        <nav class="menu-upper">
-            <a href="about.php"><button class="btn">Quem Somos</button></a>
-            <a href="activities.php"><button class="btn">Atividade</button></a>
-            <div class="dropdown">
-                <a href="transparency.php"><button class="dropbtn">Transparência</button></a>
-                <div class="dropdown-content">
+        <nav class="n-menu-upper">
+            <a href="../pages/about.php"><button class="n-btn">Quem Somos</button></a>
+            <a href="../pages/activities.php"><button class="n-btn">Atividade</button></a>
+            <div class="n-dropdown">
+                <a href="../pages/transparency.php"><button class="n-dropbtn">Transparência</button></a>
+                <div class="n-dropdown-content">
                     <a href="#">Ética</a>
                 </div>
             </div>
-            <a href="contact.php"><button class="btn">Fale Conosco</button></a>
+            <a href="../pages/contact.php"><button class="n-btn">Fale Conosco</button></a>
         </nav>
-        <div class="but-contact">
-            <a href="donations.php"><button class="donation">Doe Agora!</button></a>
+        <div class="n-but-contact">
+            <a href="../pages/donations.php"><button class="n-donation">Doe Agora!</button></a>
         </div>
     </div>
 </header>

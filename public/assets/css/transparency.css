@@ -1,15 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
+.transparency {
   font-family: Arial, sans-serif;
   background-image: url("../img/Designsemnome.png");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .container {
@@ -26,18 +19,18 @@ body {
   max-width: 60vw;
 }
 
-h1 {
-  font-size: 11vh;
-  color: #002060;
-  margin-bottom: 2vh;
-}
-
-p {
+.content p {
   font-size: 2.8vh;
   color: #333;
   margin-bottom: 5vh;
   justify-content: left;
   text-justify: left;
+}
+
+h1 {
+  font-size: 11vh;
+  color: #002060;
+  margin-bottom: 2vh;
 }
 
 ul {

@@ -3,53 +3,53 @@ footer {
     padding: 10px;
 }
 
-.tudo {
+.f-tudo {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
 }
 
-.footer-image {
+.f-footer-image {
     flex: 1;
     max-width: 200px;
     min-width: 50px;
 }
 
-.footer-image img {
+.f-footer-image img {
     width: 100%;
     height: auto;
 }
 
-.formulario-contato, .detalhes-contato, .localizacao, .redes-sociais {
+.f-formulario-contato, .f-detalhes-contato, .f-localizacao, .f-redes-sociais {
     flex: 1;
     margin-bottom: 10px;
 }
 
-.separa {
+.f-split {
     flex: 1;
     max-width: 10px;
 }
 
-.redes-sociais img {
+.f-redes-sociais img {
     max-width: 50px;
     max-height: 50px;
 
 }
 
-.rodape-inferior {
+.f-rodape-inferior {
     text-align: center;
     padding-top: 20px;
     border-top: 1px solid #ddd;
 }
 
-.hidden {
+.f-hidden {
     display: none;
 }
 
-/* bUtão */
+/*Button*/
 
-.fbutao {
+.f-button {
     background-color: transparent;
     color: white;
     border: none;
@@ -60,7 +60,7 @@ footer {
     transition: background-color 0.3s, color 0.3s
 }
 
-.fbutao:hover {
+.f-button:hover {
     background-color: white;
     color: black; 
 }

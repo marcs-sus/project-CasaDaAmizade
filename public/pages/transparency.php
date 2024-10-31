@@ -11,22 +11,22 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
     <!-- Additional Stylesheets -->
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <link rel="stylesheet" href="/assets/css/navbar.css">
 
-    <link rel="stylesheet" href="../css/transparency.css">
+    <link rel="stylesheet" href="/assets/css/transparency.css">
 </head>
 
 <body>
     <!-- Header section -->
-    <?php include "../php/navbar.php" ?>
+    <?php include "../includes/navbar.php" ?>
 
     <!-- Main section -->
     <main>
         <!-- Transparency section -->
-        <section>
+        <section class="transparency">
             <div class="container">
                 <div class="content">
                     <h1>TRANSPARÊNCIA</h1>
@@ -54,6 +54,10 @@
         </section>
 
     </main>
+
+    <!-- Footer section -->
+    <?php include '../includes/footer.php'; ?>
+    
 </body>
 
 </html>

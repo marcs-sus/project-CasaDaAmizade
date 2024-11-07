@@ -59,8 +59,8 @@ class Home
 			<title>Casa da Amizade</title>
 
 			<!-- Bootstrap CSS -->
-			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-				integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+			<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+				integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />-->
 
 			<!-- Font Stylesheets -->
 			<script src="https://kit.fontawesome.com/a41648155f.js" crossorigin="anonymous"></script>
@@ -73,6 +73,7 @@ class Home
 			<link rel="stylesheet" href="/assets/css/normalize.css">
 			<link rel="stylesheet" href="/assets/css/footer.css">
 			<link rel="stylesheet" href="/assets/css/navbar.css">
+			
 		</head>
 
 		<body>
@@ -145,9 +146,9 @@ class Home
 			<?php include __DIR__ . '/includes/footer.php'; ?>
 
 			<!-- Bootstrap JS -->
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+			<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
 				integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-				crossorigin="anonymous"></script>
+				crossorigin="anonymous"></script>-->
 			<!-- Popper.js -->
 			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
 				integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

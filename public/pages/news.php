@@ -62,7 +62,7 @@
         </section>
         <a href="../index.php" class="principal_botao">Página principal</a>
     </main>
-    <footer></footer>
+    
 </body>
 
 </html>

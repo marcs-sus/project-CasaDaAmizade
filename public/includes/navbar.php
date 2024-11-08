@@ -1,21 +1,25 @@
 <header>
-    <div class="n-container">
-        <div class="n-idv-site">
-            <a href="../index.php"><img src="../assets/img/logo.png" alt="logo" class="n-logo"></a>
-        </div>
-        <nav class="n-menu-upper">
-            <a href="../pages/about.php"><button class="n-btn">Quem Somos</button></a>
-            <a href="../pages/activities.php"><button class="n-btn">Atividade</button></a>
-            <div class="n-dropdown">
-                <a href="../pages/transparency.php"><button class="n-dropbtn">Transparência</button></a>
-                <div class="n-dropdown-content">
-                    <a href="../pages/ethics.php">Ética</a>
-                </div>
-            </div>
-            <a href="../pages/contact.php"><button class="n-btn">Fale Conosco</button></a>
-        </nav>
-        <div class="n-but-contact">
-            <a href="../pages/donations.php"><button class="n-donation">Doe Agora!</button></a>
-        </div>
-    </div>
+    <nav class="navbar">
+        <div><img src="../assets/img/logo.png" class="logo" alt="logo" href="../index.php"></div> 
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links">
+            <li class="nav"><a href="../pages/about.php">Quem Somos</a></li>
+            <li class="nav"><a href="../pages/activities.php">Atividade</a></li>
+                <li class="nav-dropdown">
+                <a href="../pages/transparency.php">Transparência</a>
+                <ul class="dropdown-content">
+                    <li class="dpdw"><a href="../pages/ethics.php">Ética</a></li>
+                </ul>
+            </li>
+            <li class="nav"><a href="../pages/contact.php">Fale Conosco</a></li>
+            <li><input type="button" value="DOE AGORA!" class="btn" href="../pages/donations.php"></li>
+        </ul>
+    </nav>
 </header>
+
+<script>
+    function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+}
+</script>

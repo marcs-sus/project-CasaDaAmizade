@@ -53,12 +53,13 @@
 }
 
 .voluntariado_imagem {
+
   object-fit: cover;
   width: 45vw;
   height: 45vh;
   max-width: 1000px;
   max-height: 920px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 15px auto;
   justify-content: center;
 }
 
@@ -171,7 +172,7 @@ h2 {
     text-align: center;
   }
 
-  .voluntariado_imagem {    
+  .voluntariado_imagem {
     width: 100%;
     height: auto;
     margin: 0 auto;

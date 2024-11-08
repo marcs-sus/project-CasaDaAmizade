@@ -33,6 +33,7 @@
 
 .legendaprincipal {
   font-family: "DM Sans", sans-serif;
+  margin-top: 15px;
   padding-left: 80px;
   padding-right: 80px;
   text-align: center;
@@ -53,7 +54,6 @@
 }
 
 .voluntariado_imagem {
-
   object-fit: cover;
   width: 45vw;
   height: 45vh;
@@ -72,6 +72,7 @@
 }
 
 h2 {
+  font-weight: 600;
   color: #000c7c;
   font-family: "Josefin Sans", sans-serif;
   font-size: 35px;

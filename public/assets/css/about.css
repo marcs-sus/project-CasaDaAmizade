@@ -62,7 +62,8 @@
   justify-content: center;
 }
 
-.voluntariado_imagem > img {
+.voluntariado_imagem>img {
+  border-radius: 1vh;
   display: flex;
   width: 100%;
   height: 100%;
@@ -170,13 +171,14 @@ h2 {
     text-align: center;
   }
 
-  .voluntariado_imagem {
+  .voluntariado_imagem {    
     width: 100%;
     height: auto;
     margin: 0 auto;
   }
 
   .legendadisplay {
+    margin: 3vw;
     font-size: 18px;
     padding: 0 10px;
   }

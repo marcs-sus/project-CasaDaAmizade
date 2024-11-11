@@ -69,10 +69,10 @@ class Home
 			<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
 
 			<!-- Additional Stylesheets -->
-			<link rel="stylesheet" href="/assets/css/style.css">
-			<link rel="stylesheet" href="/assets/css/normalize.css">
-			<link rel="stylesheet" href="/assets/css/footer.css">
-			<link rel="stylesheet" href="/assets/css/navbar.css">
+			<link rel="stylesheet" href="assets/css/style.css">
+			<link rel="stylesheet" href="assets/css/normalize.css">
+			<link rel="stylesheet" href="assets/css/footer.css">
+			<link rel="stylesheet" href="assets/css/navbar.css">
 			
 		</head>
 
@@ -144,7 +144,7 @@ class Home
 
 			<!-- Footer section -->
 			<?php include __DIR__ . '/includes/footer.php'; ?>
-
+		
 			<!-- Bootstrap JS -->
 			<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
 				integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"

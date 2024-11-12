@@ -1,7 +1,7 @@
 <footer>
     <div class="f-tudo">
         <div class="f-footer-image">
-            <img src="assets/img/logo.png" alt="Logo">
+            <img src="../assets/img/logo.png" alt="Logo">
         </div>
         <!-- form -->
         <div class="f-formulario-contato" action="#">
@@ -33,9 +33,9 @@
 
         <div class="f-detalhes-contato">
             <h5 class="f-tit">Contatos</h5>
-            <p><img src="assets/img/telefone.png" alt="" style="width: 3.5vh;"><strong>Telefone:</strong> (47) 99938-3195
+            <p><img src="../assets/img/telefone.png" alt="" style="width: 3.5vh;"><strong>Telefone:</strong> (47) 99938-3195
             </p>
-            <p><img src="assets/img/email.png" alt="" style="width: 3.5vh;"><strong>Email:</strong> casaamizade@gmail.com
+            <p><img src="../assets/img/email.png" alt="" style="width: 3.5vh;"><strong>Email:</strong> casaamizade@gmail.com
             </p>
         </div>
 
@@ -43,15 +43,15 @@
 
         <div class="f-localizacao">
             <h5 class="f-tit">Localização</h5>
-            <p><img src="assets/img/local.png" alt="" style="width: 3vh;">Lontras, Centro</p>
+            <p><img src="../assets/img/local.png" alt="" style="width: 3vh;">Lontras, Centro</p>
         </div>
 
         <div class="f-split"><!-- deixar bonito ❤️ --></div>
 
         <div class="f-redes-sociais">
             <h5 class="f-tit">Redes Sociais</h5>
-            <a href="#"><img src="assets/img/facebook.png" alt="Facebook"></a>
-            <a href="#"><img src="assets/img/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="../assets/img/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="../assets/img/instagram.png" alt="Instagram"></a>
         </div>
     </div>
 

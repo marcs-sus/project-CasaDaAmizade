@@ -90,9 +90,9 @@
 
 <!-- Deixar letras brancas -->
 <style>
-    h5,
-    p,
-    label {
+    footer h5,
+    footer p,
+    footer label {
         color: white;
     }
 </style>

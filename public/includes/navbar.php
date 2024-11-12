@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar">
-        <div><img src="../assets/img/logo.png" class="logo" alt="logo" href="../index.php"></div> 
+        <div><img src="../assets/img/logo.png" class="logo" alt="logo" href="index.php"></div> 
         <div class="menu-toggle" onclick="toggleMenu()">☰</div>
         <ul class="nav-links">
             <li class="nav"><a href="../pages/about.php">Quem Somos</a></li>

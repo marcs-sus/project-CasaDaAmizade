@@ -135,11 +135,72 @@ class Home
 						</div>
 					</div>
 				</section>
-				<a href="/pages/news.php" class="principal_botao">Últimas notícias</a>
+				<a href="pages/news.php" class="principal_botao">Últimas notícias</a>
 			</main>
 
 			<!-- Footer section -->
-			<?php include __DIR__ . '/includes/footer.php'; ?>
+			<footer>
+				<div class="f-tudo">
+					<div class="f-footer-image">
+						<img src="assets/img/logo.png" alt="Logo">
+					</div>
+					<!-- form -->
+					<div class="f-formulario-contato" action="#">
+						<h5 class="f-tit" id="categoria">Fale Conosco</h5>
+						<form method="post">
+							<div id="campos-contato">
+								<!-- nome -->
+								<input class="f-input1" type="text" id="nome" name="nome" placeholder="Nome" required>
+
+								<!-- email -->
+								<input class="f-input2" type="email" id="email" name="email" placeholder="E-mail" required>
+							</div>
+							<!-- checkbox -->
+							<label for="anonimo">
+								Mensagem Anônima:
+								<input type="checkbox" id="anonimo" name="anonimo">
+							</label>
+							<br>
+							<!-- textarea -->
+							<textarea class="f-textarea" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem . . ."
+								required></textarea>
+
+							<!-- enviar -->
+							<input class="f-button" type="submit" value="Enviar">
+						</form>
+					</div>
+
+					<div class="f-split"><!-- deixar bonito ❤️ --></div>
+
+					<div class="f-detalhes-contato">
+						<h5 class="f-tit">Contatos</h5>
+						<p><img src="assets/img/telefone.png" alt="" style="width: 3.5vh;"><strong>Telefone:</strong> (47) 99938-3195
+						</p>
+						<p><img src="assets/img/email.png" alt="" style="width: 3.5vh;"><strong>Email:</strong> casaamizade@gmail.com
+						</p>
+					</div>
+
+					<div class="f-split"><!-- deixar bonito ❤️ --></div>
+
+					<div class="f-localizacao">
+						<h5 class="f-tit">Localização</h5>
+						<p><img src="assets/img/local.png" alt="" style="width: 3vh;">Lontras, Centro</p>
+					</div>
+
+					<div class="f-split"><!-- deixar bonito ❤️ --></div>
+
+					<div class="f-redes-sociais">
+						<h5 class="f-tit">Redes Sociais</h5>
+						<a href="#"><img src="assets/img/facebook.png" alt="Facebook"></a>
+						<a href="#"><img src="assets/img/instagram.png" alt="Instagram"></a>
+					</div>
+				</div>
+
+				<div class="f-rodape-inferior">
+					<p>Todos os Direitos Reservados Casa da Amizade © 2024</p>
+				</div>
+
+			</footer>
 		
 			<!-- Bootstrap JS -->
 			<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"

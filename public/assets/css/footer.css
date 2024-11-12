@@ -95,3 +95,9 @@ footer {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+footer h5,
+    footer p,
+    footer label {
+        color: white;
+    }

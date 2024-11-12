@@ -1,29 +1,29 @@
-.transparency {
+.transparency-section {
   font-family: Arial, sans-serif;
   background-image: url("../img/Designsemnome.png");
   background-size: cover;
   background-position: center;
 }
 
-.container {
+.transparency-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.content {
+.transparency-content {
   text-align: center;
   max-width: 60vw;
 }
 
-h1 {
+.transparency-title {
   font-size: 5rem;
   color: #002060;
   margin-bottom: 2vh;
 }
 
-p {
+.transparency-text {
   font-size: 2.8vh;
   color: #333;
   margin-bottom: 5vh;
@@ -31,41 +31,41 @@ p {
   text-justify: left;
 }
 
-ul {
+.transparency-list {
   list-style-type: disc;
   padding-left: 2vw;
   text-align: left;
 }
 
-ul li {
+.transparency-list li {
   margin-bottom: 2.5vh;
 }
 
-ul li::marker {
+.transparency-list li::marker {
   font-size: 2.6vh;
 }
 
-ul li a {
+.transparency-list li a {
   text-decoration: line;
   color: #002060;
   font-weight: bold;
   font-size: 2.8vh;
 }
 
-ul li a:hover {
+.transparency-list li a:hover {
   text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
-  h1 {
+  .transparency-title {
     font-size: 7.5vw;
   }
 
-  p {
+  .transparency-text {
     font-size: 2vh;
   }
 
-  ul li a {
+  .transparency-list li a {
     font-size: 2vh;
   }
 }

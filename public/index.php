@@ -1,5 +1,7 @@
 <?php
 
+// Test Area --------------------------------------------------------------
+
 require __DIR__ . '/../vendor/autoload.php';
 
 use App\Estrutura\Campo;
@@ -35,7 +37,6 @@ class Home
 		$this->setCampoTeste();
 	}
 
-	//ISSO TUDO AQ É UM TESTE SHOW DE BOLA
 	private function setCampoTeste()
 	{
 		$this->setCampo(new Campo(Campo::TEXT, 'teste', 'pao'));
@@ -46,7 +47,7 @@ class Home
 		Principal::getInstance()->criaArquivoTexto($this->getCampo('teste'));
 	}
 
-	//AQUI FICA A PARTE DO HTML
+	//Html Part ------------------------------------------------------------
 	private function renderizaForm()
 	{
 		?>
@@ -58,10 +59,6 @@ class Home
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<title>Casa da Amizade</title>
 
-			<!-- Bootstrap CSS -->
-			<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-				integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />-->
-
 			<!-- Font Stylesheets -->
 			<script src="https://kit.fontawesome.com/a41648155f.js" crossorigin="anonymous"></script>
 			<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,29 +69,30 @@ class Home
 			<link rel="stylesheet" href="assets/css/style.css">
 			<link rel="stylesheet" href="assets/css/normalize.css">
 			<link rel="stylesheet" href="assets/css/footer.css">
-			<link rel="stylesheet" href="assets/css/navbar.css"> 
-			
+			<link rel="stylesheet" href="assets/css/navbar.css">
+
 		</head>
 
 		<!-- Header section -->
 		<header>
 			<nav class="navbar">
-				<div><img src="assets/img/logo.png" class="logo" alt="logo" href="index.php"></div> 
+				<div><a href="index.php"><img src="assets/img/logo.png" class="logo" alt="logo"></a></div>
 				<div class="menu-toggle" onclick="toggleMenu()">☰</div>
 				<ul class="nav-links">
 					<li class="nav"><a href="pages/about.php">Quem Somos</a></li>
 					<li class="nav"><a href="pages/activities.php">Atividade</a></li>
-						<li class="nav-dropdown">
+					<li class="nav-dropdown">
 						<a href="pages/transparency.php">Transparência</a>
 						<ul class="dropdown-content">
 							<li class="dpdw"><a href="pages/ethics.php">Ética</a></li>
 						</ul>
 					</li>
 					<li class="nav"><a href="pages/contact.php">Fale Conosco</a></li>
-					<li><input type="button" value="DOE AGORA!" class="btn" href="pages/donations.php"></li>
+					<li><a href="pages/donations.php" class="donate-btn">DOE AGORA!</a></li>
 				</ul>
 			</nav>
 		</header>
+
 		<body>
 			<!-- Main section -->
 			<main class="principal">
@@ -174,9 +172,11 @@ class Home
 
 					<div class="f-detalhes-contato">
 						<h5 class="f-tit">Contatos</h5>
-						<p><img src="assets/img/telefone.png" alt="" style="width: 3.5vh;"><strong>Telefone:</strong> (47) 99938-3195
+						<p><img src="assets/img/telefone.png" alt="" style="width: 3.5vh;"><strong>Telefone:</strong> (47)
+							99938-3195
 						</p>
-						<p><img src="assets/img/email.png" alt="" style="width: 3.5vh;"><strong>Email:</strong> casaamizade@gmail.com
+						<p><img src="assets/img/email.png" alt="" style="width: 3.5vh;"><strong>Email:</strong>
+							casaamizade@gmail.com
 						</p>
 					</div>
 
@@ -201,11 +201,7 @@ class Home
 				</div>
 
 			</footer>
-		
-			<!-- Bootstrap JS -->
-			<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-				integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-				crossorigin="anonymous"></script>-->
+
 			<!-- Popper.js -->
 			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
 				integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

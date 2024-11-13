@@ -1,8 +1,7 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 15px 20px;
   background-color: #e2e4e9;
   color: #000;
   width: 100%;
@@ -27,13 +26,13 @@
   font-size: 18px;
 }
 
-.btn {
+.donate-btn {
   font-size: 18px;
   padding: 15px 20px;
   border: 1px solid black;
   border-radius: 8px;
   background-color: #3f4491;
-  color: white;
+  color: white !important;
   font-weight: 600;
 }
 

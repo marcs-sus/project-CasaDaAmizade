@@ -1,25 +1,18 @@
 <header>
     <nav class="navbar">
-        <div><img src="../assets/img/logo.png" class="logo" alt="logo" href="index.php"></div> 
+        <div><a href="../index.php"><img src="../assets/img/logo.png" class="logo" alt="logo"></a></div>
         <div class="menu-toggle" onclick="toggleMenu()">☰</div>
         <ul class="nav-links">
-            <li class="nav"><a href="../pages/about.php">Quem Somos</a></li>
-            <li class="nav"><a href="../pages/activities.php">Atividade</a></li>
-                <li class="nav-dropdown">
-                <a href="../pages/transparency.php">Transparência</a>
+            <li class="nav"><a href="about.php">Quem Somos</a></li>
+            <li class="nav"><a href="activities.php">Atividade</a></li>
+            <li class="nav-dropdown">
+                <a href="transparency.php">Transparência</a>
                 <ul class="dropdown-content">
-                    <li class="dpdw"><a href="../pages/ethics.php">Ética</a></li>
+                    <li class="dpdw"><a href="ethics.php">Ética</a></li>
                 </ul>
             </li>
-            <li class="nav"><a href="../pages/contact.php">Fale Conosco</a></li>
-            <li><input type="button" value="DOE AGORA!" class="btn" href="../pages/donations.php"></li>
+            <li class="nav"><a href="contact.php">Fale Conosco</a></li>
+            <li><a href="donations.php" class="donate-btn">DOE AGORA!</a></li>
         </ul>
     </nav>
 </header>
-
-<script>
-    function toggleMenu() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('active');
-}
-</script>

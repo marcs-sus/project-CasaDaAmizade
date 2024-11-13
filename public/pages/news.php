@@ -62,7 +62,9 @@
         </section>
         <a href="../index.php" class="principal_botao">Página principal</a>
     </main>
-    
+
+    <!-- Additional Scripts -->
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>

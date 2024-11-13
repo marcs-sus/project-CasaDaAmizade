@@ -3,50 +3,54 @@
         <div class="f-footer-image">
             <img src="../assets/img/logo.png" alt="Logo">
         </div>
-        <!-- form -->
+        <!-- Form -->
         <div class="f-formulario-contato" action="#">
             <h5 class="f-tit" id="categoria">Fale Conosco</h5>
             <form method="post">
                 <div id="campos-contato">
-                    <!-- nome -->
+                    <!-- Name -->
                     <input class="f-input1" type="text" id="nome" name="nome" placeholder="Nome" required>
 
-                    <!-- email -->
+                    <!-- E-mail -->
                     <input class="f-input2" type="email" id="email" name="email" placeholder="E-mail" required>
                 </div>
-                <!-- checkbox -->
+
+                <!-- Checkbox -->
                 <label for="anonimo">
                     Mensagem Anônima:
                     <input type="checkbox" id="anonimo" name="anonimo">
                 </label>
                 <br>
-                <!-- textarea -->
+
+                <!-- Textarea -->
                 <textarea class="f-textarea" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem . . ."
                     required></textarea>
 
-                <!-- enviar -->
+                <!-- Submit -->
                 <input class="f-button" type="submit" value="Enviar">
             </form>
         </div>
 
-        <div class="f-split"><!-- deixar bonito ❤️ --></div>
+        <div class="f-split"></div>
 
         <div class="f-detalhes-contato">
             <h5 class="f-tit">Contatos</h5>
-            <p><img src="../assets/img/telefone.png" alt="" style="width: 3.5vh;"><strong>Telefone:</strong> (47) 99938-3195
+            <p><img src="../assets/img/telefone.png" alt="" style="width: 3.5vh;"><strong>Telefone:</strong> (47)
+                99938-3195
             </p>
-            <p><img src="../assets/img/email.png" alt="" style="width: 3.5vh;"><strong>Email:</strong> casaamizade@gmail.com
+            <p><img src="../assets/img/email.png" alt="" style="width: 3.5vh;"><strong>Email:</strong>
+                casaamizade@gmail.com
             </p>
         </div>
 
-        <div class="f-split"><!-- deixar bonito ❤️ --></div>
+        <div class="f-split"></div>
 
         <div class="f-localizacao">
             <h5 class="f-tit">Localização</h5>
             <p><img src="../assets/img/local.png" alt="" style="width: 3vh;">Lontras, Centro</p>
         </div>
 
-        <div class="f-split"><!-- deixar bonito ❤️ --></div>
+        <div class="f-split"></div>
 
         <div class="f-redes-sociais">
             <h5 class="f-tit">Redes Sociais</h5>
@@ -61,7 +65,7 @@
 
 </footer>
 
-<!-- Sistema mensagem anônima -->
+<!-- Anonymous message -->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const anonimoCheckbox = document.getElementById("anonimo");
@@ -88,7 +92,7 @@
     });
 </script>
 
-<!-- Deixar letras brancas -->
+<!-- White font -->
 <style>
     footer h5,
     footer p,

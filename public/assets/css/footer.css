@@ -13,7 +13,7 @@ footer {
 .f-footer-image {
   flex: 1;
   max-width: 200px;
-  min-width: 50px;
+  min-width: 125px;
 }
 
 .f-footer-image img {
@@ -57,7 +57,7 @@ footer {
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -65,4 +65,47 @@ footer {
 .f-button:hover {
   background-color: white;
   color: black;
+}
+
+.f-tit {
+  font-size: 1.5rem;
+}
+
+.f-formulario-contato p,
+.f-detalhes-contato p,
+.f-localizacao p,
+.f-redes-sociais p {
+  font-size: 1rem;
+}
+
+.f-input1 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  max-width: 174px;;
+}
+
+.f-input2{
+  border: transparent;
+  max-width: 174px;
+}
+
+.f-textarea {
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+footer h5,
+    footer p,
+    footer label {
+        color: white;
+    }
+
+footer h5,
+footer p,
+footer label {
+    color: white;
 }

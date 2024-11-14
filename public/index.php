@@ -1,5 +1,7 @@
 <?php
 
+// Test Area --------------------------------------------------------------
+
 require __DIR__ . '/../vendor/autoload.php';
 
 use App\Estrutura\Campo;
@@ -35,7 +37,6 @@ class Home
 		$this->setCampoTeste();
 	}
 
-	//ISSO TUDO AQ É UM TESTE SHOW DE BOLA
 	private function setCampoTeste()
 	{
 		$this->setCampo(new Campo(Campo::TEXT, 'teste', 'pao'));
@@ -46,7 +47,7 @@ class Home
 		Principal::getInstance()->criaArquivoTexto($this->getCampo('teste'));
 	}
 
-	//AQUI FICA A PARTE DO HTML
+	//Html Part ------------------------------------------------------------
 	private function renderizaForm()
 	{
 		?>
@@ -58,47 +59,44 @@ class Home
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<title>Casa da Amizade</title>
 
-			<!-- Bootstrap CSS -->
-			<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-				integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-
 			<!-- Font Stylesheets -->
 			<script src="https://kit.fontawesome.com/a41648155f.js" crossorigin="anonymous"></script>
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 			<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
 
-			<!-- Additional Stylesheets -->
-			<link rel="stylesheet" href="/assets/css/style.css">
-			<link rel="stylesheet" href="/assets/css/normalize.css">
-			<link rel="stylesheet" href="/assets/css/footer.css">
-			<link rel="stylesheet" href="/assets/css/navbar.css">
+			<!--Additional Stylesheets-->
+			<link rel="stylesheet" href="assets/css/style.css">
+			<link rel="stylesheet" href="assets/css/normalize.css">
+			<link rel="stylesheet" href="assets/css/footer.css">
+			<link rel="stylesheet" href="assets/css/navbar.css">
+
+			<!-- JavaScript -->
+			 <script src="assets/js/script.js"></script>
+
 		</head>
 
-		<body>
-			<!-- Header section -->
-			<header>
-				<div class="n-container">
-					<div class="n-idv-site">
-						<a href="index.php"><img src="../assets/img/logo.png" alt="logo" class="n-logo"></a>
-					</div>
-					<nav class="n-menu-upper">
-						<a href="/pages/about.php"><button class="n-btn">Quem Somos</button></a>
-						<a href="/pages/activities.php"><button class="n-btn">Atividade</button></a>
-						<div class="n-dropdown">
-							<a href="/pages/transparency.php"><button class="n-dropbtn">Transparência</button></a>
-							<div class="n-dropdown-content">
-								<a href="/pages/ethics.php">Ética</a>
-							</div>
-						</div>
-						<a href="/pages/contact.php"><button class="n-btn">Fale Conosco</button></a>
-					</nav>
-					<div class="n-but-contact">
-						<a href="/pages/donations.php"><button class="n-donation">Doe Agora!</button></a>
-					</div>
-				</div>
-			</header>
+		<!-- Header section -->
+		<header>
+			<nav class="navbar">
+				<div><a href="index.php"><img src="assets/img/logo.png" class="logo" alt="logo"></a></div>
+				<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+				<ul class="nav-links">
+					<li class="nav"><a href="pages/about.php">Quem Somos</a></li>
+					<li class="nav"><a href="pages/activities.php">Atividade</a></li>
+					<li class="nav-dropdown">
+						<a href="pages/transparency.php">Transparência</a>
+						<ul class="dropdown-content">
+							<li class="dpdw"><a href="pages/ethics.php">Ética</a></li>
+						</ul>
+					</li>
+					<li class="nav"><a href="pages/contact.php">Fale Conosco</a></li>
+					<li><a href="pages/donations.php" class="donate-btn">DOE AGORA!</a></li>
+				</ul>
+			</nav>
+		</header>
 
+		<body>
 			<!-- Main section -->
 			<main class="principal">
 				<div class="principal_capa">
@@ -138,16 +136,75 @@ class Home
 						</div>
 					</div>
 				</section>
-				<a href="/pages/news.php" class="principal_botao">Últimas notícias</a>
+				<a href="pages/news.php" class="principal_botao">Últimas notícias</a>
 			</main>
 
 			<!-- Footer section -->
-			<?php include __DIR__ . '/includes/footer.php'; ?>
+			<footer>
+				<div class="f-tudo">
+					<div class="f-footer-image">
+						<img src="assets/img/logo.png" alt="Logo">
+					</div>
+					<!-- form -->
+					<div class="f-formulario-contato" action="#">
+						<h5 class="f-tit" id="categoria">Fale Conosco</h5>
+						<form method="post">
+							<div id="campos-contato">
+								<!-- nome -->
+								<input class="f-input1" type="text" id="nome" name="nome" placeholder="Nome" required>
 
-			<!-- Bootstrap JS -->
-			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-				integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-				crossorigin="anonymous"></script>
+								<!-- email -->
+								<input class="f-input2" type="email" id="email" name="email" placeholder="E-mail" required>
+							</div>
+							<!-- checkbox -->
+							<label for="anonimo">
+								Mensagem Anônima:
+								<input type="checkbox" id="anonimo" name="anonimo">
+							</label>
+							<br>
+							<!-- textarea -->
+							<textarea class="f-textarea" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem . . ."
+								required></textarea>
+
+							<!-- enviar -->
+							<input class="f-button" type="submit" value="Enviar">
+						</form>
+					</div>
+
+					<div class="f-split"><!-- deixar bonito ❤️ --></div>
+
+					<div class="f-detalhes-contato">
+						<h5 class="f-tit">Contatos</h5>
+						<p><img src="assets/img/telefone.png" alt="" style="width: 3.5vh;"><strong>Telefone:</strong> (47)
+							99938-3195
+						</p>
+						<p><img src="assets/img/email.png" alt="" style="width: 3.5vh;"><strong>Email:</strong>
+							casaamizade@gmail.com
+						</p>
+					</div>
+
+					<div class="f-split"><!-- deixar bonito ❤️ --></div>
+
+					<div class="f-localizacao">
+						<h5 class="f-tit">Localização</h5>
+						<p><img src="assets/img/local.png" alt="" style="width: 3vh;">Lontras, Centro</p>
+					</div>
+
+					<div class="f-split"><!-- deixar bonito ❤️ --></div>
+
+					<div class="f-redes-sociais">
+						<h5 class="f-tit">Redes Sociais</h5>
+						<a href="#"><img src="assets/img/facebook.png" alt="Facebook"></a>
+						<a href="#"><img src="assets/img/instagram.png" alt="Instagram"></a>
+					</div>
+				</div>
+
+				<div class="f-rodape-inferior">
+					<p>Todos os Direitos Reservados Casa da Amizade © 2024</p>
+				</div>
+
+			</footer>
+
 			<!-- Popper.js -->
 			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
 				integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

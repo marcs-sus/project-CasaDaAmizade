@@ -57,6 +57,9 @@
                     target="_blank">Ver o Código de Ética e Conduta completo</a></span>
         </section>
     </main>
+
+    <!-- Additional Scripts -->
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>

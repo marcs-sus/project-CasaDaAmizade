@@ -12,11 +12,10 @@
   width: 105vw;
   height: 44.5vh;
   object-fit: cover;
-  background-image: url(img/fundoprincipal.jpg);
+  background-image: url(../img/fundoprincipal.jpg);
   width: 100%;
   background-size: cover;
   background-position: center;
-  position: relative;
   left: 0;
   right: 0;
 }
@@ -33,6 +32,7 @@
 
 .legendaprincipal {
   font-family: "DM Sans", sans-serif;
+  margin-top: 15px;
   padding-left: 80px;
   padding-right: 80px;
   text-align: center;
@@ -58,11 +58,12 @@
   height: 45vh;
   max-width: 1000px;
   max-height: 920px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 15px auto;
   justify-content: center;
 }
 
-.voluntariado_imagem > img {
+.voluntariado_imagem>img {
+  border-radius: 1vh;
   display: flex;
   width: 100%;
   height: 100%;
@@ -70,6 +71,7 @@
 }
 
 h2 {
+  font-weight: 600;
   color: #000c7c;
   font-family: "Josefin Sans", sans-serif;
   font-size: 35px;
@@ -177,6 +179,7 @@ h2 {
   }
 
   .legendadisplay {
+    margin: 3vw;
     font-size: 18px;
     padding: 0 10px;
   }

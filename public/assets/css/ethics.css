@@ -2,12 +2,14 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   min-height: 100vh;
+  padding: 0px;
+  margin: 0px;
 }
 
 .etica_principal_imagem {
   width: 100%;
   height: 261px;
-  background-image: url("imagens/eticabanner.jpeg");
+  background-image: url("../img/eticabanner.jpeg");
   display: flex;
   background-size: cover;
   flex-direction: column;
@@ -81,12 +83,14 @@ body {
   text-align: center;
   padding: 10px 0 15px 0;
   line-height: 1.5em;
+  margin: 0px;
 }
 
 .etica_principal_grid_card > p {
   display: flex;
   text-align: center;
   justify-content: center;
+  margin: 0px;
 }
 
 .etica_principal_grid_link {

@@ -3,7 +3,6 @@ function toggleMenu() {
   navLinks.classList.toggle("active");
 }
 
-
 document.addEventListener("DOMContentLoaded", function () {
     const anonimoCheckbox = document.getElementById("anonimo");
     const camposContato = document.getElementById("campos-contato");

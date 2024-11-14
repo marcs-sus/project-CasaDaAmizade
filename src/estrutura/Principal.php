@@ -50,9 +50,16 @@ class Principal {
 
    /**
     * Realiza o require da script css
-    * @param mixed $sScript
+    * @param string | string[] $xScript
     */
-   public function requireCSS($sScript){
-      echo "<link rel=\"stylesheet\" href=\"{$sScript}\">";
+   public function requireCSS($xScript){
+      if(is_array($xScript)){
+         foreach ($xScript as $sScript) {
+            echo "<link rel=\"stylesheet\" href=\"{$sScript}\">";
+         }
+      }
+      else{
+         echo "<link rel=\"stylesheet\" href=\"{$xScript}\">";
+      }
    }
 }

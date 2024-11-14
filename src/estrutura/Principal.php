@@ -35,17 +35,31 @@ class Principal {
 
    /**
     * Realiza o require da script js
-    * @param string $sScript
+    * @param string | string[] $xScript
     */
-   public function requireJS($sScript){
-      echo "<script>{$sScript}</script>";
+   public function requireJS($xScript){
+      if(is_array($xScript)){
+         foreach ($xScript as $sScript) {
+            echo "<script type=\"text/javascript\" src=\"{$sScript}\"></script>";
+         }
+      }
+      else{
+         echo "<script type=\"text/javascript\" src=\"{$xScript}\"></script>";
+      }
    }
 
    /**
     * Realiza o require da script css
-    * @param mixed $sScript
+    * @param string | string[] $xScript
     */
-   public function requireCSS($sScript){
-      echo "<link rel=\"stylesheet\" href=\"{$sScript}\">";
+   public function requireCSS($xScript){
+      if(is_array($xScript)){
+         foreach ($xScript as $sScript) {
+            echo "<link rel=\"stylesheet\" href=\"{$sScript}\">";
+         }
+      }
+      else{
+         echo "<link rel=\"stylesheet\" href=\"{$xScript}\">";
+      }
    }
 }

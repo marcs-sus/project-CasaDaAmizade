@@ -13,6 +13,7 @@ class Home
 
 	public function __construct()
 	{
+		$this->setRequiresJs();
 		$this->renderiza();
 	}
 
@@ -44,7 +45,6 @@ class Home
 		$this->getCampo('teste')->set_suggest('teste rsrs');
 		$this->getCampo('teste')->set_style('color', 'red');
 		$this->getCampo('teste')->set_style('width', '300px');
-		Principal::getInstance()->criaArquivoTexto($this->getCampo('teste'));
 	}
 
 	//Html Part ------------------------------------------------------------
@@ -209,13 +209,16 @@ class Home
 			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
 				integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
 				crossorigin="anonymous"></script>
-
-			<!-- Additional Scripts -->
-			<script src="/assets/js/script.js"></script>
 		</body>
 
 		</html>
 		<?php
+	}
+
+	private function setRequiresJs(){
+		Principal::getInstance()->requireJS([
+			'/assets/js/script.js'
+		]);
 	}
 }
 

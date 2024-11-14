@@ -47,11 +47,11 @@ class Campo{
 
    /**
     * Define um placeholder para o campo
-    * @param string $texto
+    * @param string $sTexto
     * @return $this
     */
-   public function set_suggest($texto){
-      $this->aAtributos['placeholder'] = $texto;
+   public function set_suggest($sTexto){
+      $this->aAtributos['placeholder'] = $sTexto;
       return $this;
    }
 
@@ -68,46 +68,49 @@ class Campo{
 
    /**
     * Define um evento de clique
-    * @param string $script
+    * @param string $sScript
     * @return $this
     */
-   public function set_onclick($script){
-      $this->eventos['onclick'] = $script;
+   public function set_onclick($sScript){
+      $this->eventos['onclick'] = $sScript;
       return $this;
    }
 
    /**
     * Define um evento de blur
-    * @param string $script
+    * @param string $sScript
     * @return $this
     */
-   public function set_blur($script){
-      $this->eventos['onblur'] = $script;
+   public function set_blur($sScript){
+      $this->eventos['onblur'] = $sScript;
       return $this;
    }
 
    /**
     * Define um evento de change
-    * @param string $script
+    * @param string $sScript
     * @return $this
     */
-   public function set_change($script){
-      $this->eventos['onchange'] = $script;
+   public function set_change($sScript){
+      $this->eventos['onchange'] = $sScript;
       return $this;
    }
 
+   /**
+    * Renderiza o campo
+    */
    public function imp_campo(){
       $atributosHtml = '';
+      $eventosHtml   = '';
+
       foreach ($this->aAtributos as $key => $value) {
          $atributosHtml .= "$key=\"$value\" ";
       }
 
-      $eventosHtml = '';
       foreach ($this->eventos as $event => $script) {
          $eventosHtml .= "$event=\"$script\" ";
       }
 
-      // Renderização do campo com base no tipo
       switch ($this->sTipo) {
          case self::TEXT_AREA:
             echo "<textarea $atributosHtml $eventosHtml></textarea>";

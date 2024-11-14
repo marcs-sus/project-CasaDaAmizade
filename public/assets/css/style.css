@@ -238,7 +238,7 @@
       border: 1px solid #cfcfcf;
       background-color: #ffffff;
       min-width: auto;
-      margin-bottom: 15px;
+      margin-bottom: 18px;
     }
   
     .principal_grid_not_grande > span > img{
@@ -274,9 +274,13 @@
     border: 1px solid #cfcfcf;
     background-color: #ffffff;
     min-width: auto;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .principal_grid_not_grande {
+    margin-bottom: 24px;
   }
 
   .principal_grid_not_grande > span > img{
@@ -319,7 +323,7 @@
 }
 
 .principal_grid_not_conjunto_1{
-  margin-bottom: 15px;
+  margin-bottom: 24px;
 }
 
 .principal_grid_not_conjunto_1,

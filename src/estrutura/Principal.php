@@ -32,4 +32,20 @@ class Principal {
       }
       fclose($arquivo);
    }
+
+   /**
+    * Realiza o require da script js
+    * @param string $sScript
+    */
+   public function requireJS($sScript){
+      echo "<script>{$sScript}</script>";
+   }
+
+   /**
+    * Realiza o require da script css
+    * @param mixed $sScript
+    */
+   public function requireCSS($sScript){
+      echo "<link rel=\"stylesheet\" href=\"{$sScript}\">";
+   }
 }

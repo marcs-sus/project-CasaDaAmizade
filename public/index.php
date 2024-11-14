@@ -71,6 +71,9 @@ class Home
 			<link rel="stylesheet" href="assets/css/footer.css">
 			<link rel="stylesheet" href="assets/css/navbar.css">
 
+			<!-- JavaScript -->
+			 <script src="assets/js/script.js"></script>
+
 		</head>
 
 		<!-- Header section -->

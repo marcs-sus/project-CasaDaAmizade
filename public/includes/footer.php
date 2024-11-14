@@ -26,7 +26,8 @@
                 <textarea class="f-textarea" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem . . ."
                     required></textarea>
 
-                <!-- Submit -->
+                <!-- Submit --> 
+                <br>
                 <input class="f-button" type="submit" value="Enviar">
             </form>
         </div>
@@ -91,12 +92,3 @@
         anonimoCheckbox.addEventListener("change", toggleCamposContato);
     });
 </script>
-
-<!-- White font -->
-<style>
-    footer h5,
-    footer p,
-    footer label {
-        color: white;
-    }
-</style>

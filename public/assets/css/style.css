@@ -15,7 +15,7 @@ body{
   flex-direction: column;
   flex: 1;
   background-color:#f8f9ff;
-
+  min-height: 100vh;
 }
 
 .principal {
@@ -84,7 +84,7 @@ body{
   gap: 40px;
   flex-direction: row;
   justify-content: center;
-  min-height: 100vh;
+ 
   /* justify-content: center;
   flex-wrap: wrap;
   margin: auto; */

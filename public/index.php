@@ -64,12 +64,19 @@ class Home
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 			<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
 
 			<!--Additional Stylesheets-->
 			<link rel="stylesheet" href="assets/css/style.css">
 			<link rel="stylesheet" href="assets/css/normalize.css">
 			<link rel="stylesheet" href="assets/css/footer.css">
 			<link rel="stylesheet" href="assets/css/navbar.css">
+			<link rel="stylesheet" href="assets/css/testimony.css">
 
 			<!-- JavaScript -->
 			 <script src="assets/js/script.js"></script>
@@ -137,6 +144,45 @@ class Home
 					</div>
 				</section>
 				<a href="pages/news.php" class="principal_botao">Últimas notícias</a>
+			</main>
+
+			<!-- Testimony section -->
+			<main class="testimony-sec">
+				<div class="testimony-title">
+						<p class="title1">Confira os depoimentos</p>
+						<p class="title2">Recordar é viver...</p>
+				</div>	
+				<div class="dp-dad">
+					<div class="dp"> 
+						<img src="assets/img/depo1.jpg" class="dp-img"alt="depoimento-1">
+						<p class="nome">Katiane de Liz Santos</p>
+						<p class="depoimento">“É gratificante participar da Casa da amizade, pois além de criarmos amizades ajudamos muitas pessoas, escolas, crianças e outras entidades. 
+						Se conectamos com a comunidade buscando o melhor... 
+					Às vezes sozinho não conseguimos e estar na casa, mulheres com mesmo  propósito, transformamos vidas!”</p>
+					</div>
+
+					<div class="dp">
+						<img src="assets/img/depo2.jpg" class="dp-img"alt="depoimento-2">
+						<p class="nome">Etla Weiss da Costa</p>
+						<p class="depoimento">“Fazer parte desse grupo de mulheres que pensam no próximo, é gratificante;
+							Um aprendizado constante de amor, amizade e caridade.”</p>
+					</div>
+
+
+					<div class="dp">
+						<img src="assets/img/depo3.jpg" class="dp-img"alt="depoimento-3">
+						<p class="nome">Eliete Waidlich Krzyzanowski</p>
+						<p class="depoimento">“Estar ao lado de pessoas que pensam no próximo e no bem de uma comunidade como um todo, não tem preço.
+							O que mais me motiva a ser voluntária, é ver um sorriso de esperança em cada criança e receber um abraço em forma de gratidão de cada família assistida.”</p>
+					</div>
+
+					<div class="dp">
+						<img src="assets/img/depo4.jpg" class="dp-img"alt="depoimento-4">
+						<p class="nome">Patrícia Adriano Ribeiro</p>
+						<p class="depoimento">"Fazer parte da casa da amizade é gratificante! É fazer o bem sem olhar a quem, doar um pouquinho do nosso tempo para o próximo. 
+							Sou grata por fazer parte desta história, ter a oportunidade de fazer a diferença por que juntas somos fortes!"</p>
+					</div>
+				</div>
 			</main>
 
 			<!-- Footer section -->
@@ -209,7 +255,7 @@ class Home
 			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
 				integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
 				crossorigin="anonymous"></script>
-		</body>
+			</body>
 
 		</html>
 		<?php

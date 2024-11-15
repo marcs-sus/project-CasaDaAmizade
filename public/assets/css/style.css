@@ -1,12 +1,23 @@
+<<<<<<< HEAD
 body{
   background-color: #f8f9ff;
 }
 
 main {
+=======
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.principal {
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+>>>>>>> 97e042dbea09cde337ca8f322facfdcaff5294f7
   display: flex;
   flex-direction: column;
   flex: 1;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color:#f8f9ff;
   min-height: 100vh;
 }
@@ -235,7 +246,7 @@ main {
       border: 1px solid #cfcfcf;
       background-color: #ffffff;
       min-width: auto;
-      margin-bottom: 15px;
+      margin-bottom: 18px;
     }
   
     .principal_grid_not_grande > span > img{
@@ -271,9 +282,13 @@ main {
     border: 1px solid #cfcfcf;
     background-color: #ffffff;
     min-width: auto;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .principal_grid_not_grande {
+    margin-bottom: 24px;
   }
 
   .principal_grid_not_grande > span > img{
@@ -316,7 +331,7 @@ main {
 }
 
 .principal_grid_not_conjunto_1{
-  margin-bottom: 15px;
+  margin-bottom: 24px;
 }
 
 .principal_grid_not_conjunto_1,

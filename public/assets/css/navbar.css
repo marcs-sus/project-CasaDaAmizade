@@ -87,16 +87,17 @@ display: inline-block;
       .navbar .nav-links {
       display: none;
       flex-direction: column;
-      gap: 0;
-      width: 80%;
+      width: 100%;
       position: absolute;
-      top: 35px;
-      background-color: #e2e4e9;
-      text-align: center;
-      padding: 25px ;
+      text-align:center;
+      padding:40px;
       min-height: 300px;
-      margin-top:50px;
+      top:103px;
+      background: rgb(226, 228, 233); /* Cor sólida */
+      background: linear-gradient(to bottom, rgb(226, 228, 233) 50%, rgba(226, 228, 233, 0.9) 100%);
+
   }
+
 
   .nav-links.active {
       display: flex;

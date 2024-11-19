@@ -1,0 +1,99 @@
+.donation-container {
+  text-align: center;
+}
+
+.donation-banner {
+  display: flex;
+  background-image: url(../img/doacao_banner.png);
+  width: 100%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.donation-banner h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: -25px;
+  color: white;
+  width: auto;
+  background-color: #3d429a;
+  border: 15px solid #3d429a;
+  border-radius: 15px;
+}
+
+.donation-description {
+  font-size: 1.4em;
+  color: #333;
+  margin-bottom: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.qr-code-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.qr-code-and-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.qr-code {
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+
+.donation-message {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  width: 50%;
+  margin: 25px;
+}
+
+.copy-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d3d3d3;
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 25px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgb(0, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+.copy-button:hover {
+  background-color: #242424;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .qr-code-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .donation-message {
+    width: 100%;
+  }
+}

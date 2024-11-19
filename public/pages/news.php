@@ -12,10 +12,14 @@
     <!-- Additional Stylesheets -->
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/news.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
 
 </head>
 
 <body>
+    <!-- Header section -->
+    <?php include "../includes/navbar.php" ?>
     <main class="principal">
         <h1 class="principal_titulo">Confira as últimas notícias</h1>
         <section class="principal_grid">
@@ -61,6 +65,11 @@
             </div>
         </section>
         <a href="../index.php" class="principal_botao">Página principal</a>
+        <!-- Footer section -->
+        <?php include '../includes/footer.php'; ?>
+
+        <!-- Additional Scripts -->
+        <script src="/assets/js/script.js"></script>
     </main>
 
     <!-- Additional Scripts -->

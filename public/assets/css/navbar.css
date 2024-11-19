@@ -39,7 +39,7 @@
 
 .dropdown {
   position: relative;
-display: inline-block;
+  display: inline-block;
 }
 
 .dropdown-content {
@@ -83,31 +83,32 @@ display: inline-block;
 }
 
 @media screen and (max-width: 1020px) {
-  
-      .navbar .nav-links {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      position: absolute;
-      text-align:center;
-      padding:40px;
-      min-height: 300px;
-      top:103px;
-      background: rgb(226, 228, 233); /* Cor sólida */
-      background: linear-gradient(to bottom, rgb(226, 228, 233) 50%, rgba(226, 228, 233, 0.9) 100%);
-
+  .navbar .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    padding: 40px;
+    min-height: 300px;
+    top: 103px;
+    background: rgb(226, 228, 233); /* Cor sólida */
+    background: linear-gradient(
+      to bottom,
+      rgb(226, 228, 233) 50%,
+      rgba(226, 228, 233, 0.9) 100%
+    );
   }
 
-
   .nav-links.active {
-      display: flex;
+    display: flex;
   }
 
   .menu-toggle {
-      display: block;
+    display: block;
   }
 
-  .navbar .logo{
-      max-width: 100px;
+  .navbar .logo {
+    max-width: 100px;
   }
 }

@@ -84,10 +84,10 @@ footer {
   border-top: transparent;
   border-right: transparent;
   border-left: transparent;
-  max-width: 174px;;
+  max-width: 174px;
 }
 
-.f-input2{
+.f-input2 {
   border: transparent;
   max-width: 174px;
 }
@@ -96,16 +96,20 @@ footer {
   border: none;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  max-width: 250px;
+  max-height: 175px;
+  min-width: 150px;
+  min-height: 100px;
 }
-
-footer h5,
-    footer p,
-    footer label {
-        color: white;
-    }
 
 footer h5,
 footer p,
 footer label {
-    color: white;
+  color: white;
+}
+
+footer h5,
+footer p,
+footer label {
+  color: white;
 }

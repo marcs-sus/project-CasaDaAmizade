@@ -62,7 +62,7 @@
   justify-content: center;
 }
 
-.voluntariado_imagem>img {
+.voluntariado_imagem > img {
   border-radius: 1vh;
   display: flex;
   width: 100%;
@@ -142,7 +142,7 @@ h2 {
   font-size: 15px;
 }
 
-@media only screen and (max-width: 1024px) {  
+@media only screen and (max-width: 1024px) {
   .layout {
     display: flex;
     flex-direction: column;

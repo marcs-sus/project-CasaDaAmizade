@@ -57,6 +57,7 @@ class Home
 		<head>
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 			<title>Casa da Amizade</title>
 
 			<!-- Font Stylesheets -->
@@ -79,8 +80,7 @@ class Home
 			<link rel="stylesheet" href="assets/css/testimony.css">
 
 			<!-- JavaScript -->
-			 <script src="assets/js/script.js"></script>
-
+			<script src="assets/js/script.js"></script>
 		</head>
 
 		<!-- Header section -->
@@ -144,20 +144,22 @@ class Home
 			<!-- Testimony section -->
 			<main class="testimony-sec">
 				<div class="testimony-title">
-						<p class="title1">Confira os depoimentos</p>
-						<p class="title2">Recordar é viver...</p>
-				</div>	
+					<p class="title1">Confira os depoimentos</p>
+					<p class="title2">Recordar é viver...</p>
+				</div>
 				<div class="dp-dad">
-					<div class="dp"> 
-						<img src="assets/img/depo1.jpg" class="dp-img"alt="depoimento-1">
+					<div class="dp">
+						<img src="assets/img/depo1.jpg" class="dp-img" alt="depoimento-1">
 						<p class="nome">Katiane de Liz Santos</p>
-						<p class="depoimento">“É gratificante participar da Casa da amizade, pois além de criarmos amizades ajudamos muitas pessoas, escolas, crianças e outras entidades. 
-						Se conectamos com a comunidade buscando o melhor... 
-					Às vezes sozinho não conseguimos e estar na casa, mulheres com mesmo  propósito, transformamos vidas!”</p>
+						<p class="depoimento">“É gratificante participar da Casa da amizade, pois além de criarmos amizades
+							ajudamos muitas pessoas, escolas, crianças e outras entidades.
+							Se conectamos com a comunidade buscando o melhor...
+							Às vezes sozinho não conseguimos e estar na casa, mulheres com mesmo propósito, transformamos
+							vidas!”</p>
 					</div>
 
 					<div class="dp">
-						<img src="assets/img/depo2.jpg" class="dp-img"alt="depoimento-2">
+						<img src="assets/img/depo2.jpg" class="dp-img" alt="depoimento-2">
 						<p class="nome">Etla Weiss da Costa</p>
 						<p class="depoimento">“Fazer parte desse grupo de mulheres que pensam no próximo, é gratificante;
 							Um aprendizado constante de amor, amizade e caridade.”</p>
@@ -165,98 +167,35 @@ class Home
 
 
 					<div class="dp">
-						<img src="assets/img/depo3.jpg" class="dp-img"alt="depoimento-3">
+						<img src="assets/img/depo3.jpg" class="dp-img" alt="depoimento-3">
 						<p class="nome">Eliete Waidlich Krzyzanowski</p>
-						<p class="depoimento">“Estar ao lado de pessoas que pensam no próximo e no bem de uma comunidade como um todo, não tem preço.
-							O que mais me motiva a ser voluntária, é ver um sorriso de esperança em cada criança e receber um abraço em forma de gratidão de cada família assistida.”</p>
+						<p class="depoimento">“Estar ao lado de pessoas que pensam no próximo e no bem de uma comunidade como um
+							todo, não tem preço.
+							O que mais me motiva a ser voluntária, é ver um sorriso de esperança em cada criança e receber um
+							abraço em forma de gratidão de cada família assistida.”</p>
 					</div>
 
 					<div class="dp">
-						<img src="assets/img/depo4.jpg" class="dp-img"alt="depoimento-4">
+						<img src="assets/img/depo4.jpg" class="dp-img" alt="depoimento-4">
 						<p class="nome">Patrícia Adriano Ribeiro</p>
-						<p class="depoimento">"Fazer parte da casa da amizade é gratificante! É fazer o bem sem olhar a quem, doar um pouquinho do nosso tempo para o próximo. 
-							Sou grata por fazer parte desta história, ter a oportunidade de fazer a diferença por que juntas somos fortes!"</p>
+						<p class="depoimento">"Fazer parte da casa da amizade é gratificante! É fazer o bem sem olhar a quem,
+							doar um pouquinho do nosso tempo para o próximo.
+							Sou grata por fazer parte desta história, ter a oportunidade de fazer a diferença por que juntas
+							somos fortes!"</p>
 					</div>
 				</div>
 			</main>
 
 			<!-- Footer section -->
-			<footer>
-				<div class="f-tudo">
-					<div class="f-footer-image">
-						<img src="assets/img/logo.png" alt="Logo">
-					</div>
-					<!-- form -->
-					<div class="f-formulario-contato" action="#">
-						<h5 class="f-tit" id="categoria">Fale Conosco</h5>
-						<form method="post">
-							<div id="campos-contato">
-								<!-- nome -->
-								<input class="f-input1" type="text" id="nome" name="nome" placeholder="Nome" required>
-
-								<!-- email -->
-								<input class="f-input2" type="email" id="email" name="email" placeholder="E-mail" required>
-							</div>
-							<!-- checkbox -->
-							<label for="anonimo">
-								Mensagem Anônima:
-								<input type="checkbox" id="anonimo" name="anonimo">
-							</label>
-							<br>
-							<!-- textarea -->
-							<textarea class="f-textarea" id="mensagem" name="mensagem" rows="5" placeholder="Mensagem . . ."
-								required></textarea>
-
-							<!-- enviar -->
-							<input class="f-button" type="submit" value="Enviar">
-						</form>
-					</div>
-
-					<div class="f-split"><!-- deixar bonito ❤️ --></div>
-
-					<div class="f-detalhes-contato">
-						<h5 class="f-tit">Contatos</h5>
-						<p><img src="assets/img/telefone.png" alt="" style="width: 3.5vh;"><strong>Telefone:</strong> (47)
-							99938-3195
-						</p>
-						<p><img src="assets/img/email.png" alt="" style="width: 3.5vh;"><strong>Email:</strong>
-							casaamizade@gmail.com
-						</p>
-					</div>
-
-					<div class="f-split"><!-- deixar bonito ❤️ --></div>
-
-					<div class="f-localizacao">
-						<h5 class="f-tit">Localização</h5>
-						<p><img src="assets/img/local.png" alt="" style="width: 3vh;">Lontras, Centro</p>
-					</div>
-
-					<div class="f-split"><!-- deixar bonito ❤️ --></div>
-
-					<div class="f-redes-sociais">
-						<h5 class="f-tit">Redes Sociais</h5>
-						<a href="#"><img src="assets/img/facebook.png" alt="Facebook"></a>
-						<a href="#"><img src="assets/img/instagram.png" alt="Instagram"></a>
-					</div>
-				</div>
-
-				<div class="f-rodape-inferior">
-					<p>Todos os Direitos Reservados Casa da Amizade © 2024</p>
-				</div>
-
-			</footer>
-
-			<!-- Popper.js -->
-			<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-				integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-				crossorigin="anonymous"></script>
-			</body>
+			<?php include 'includes/footer.php'; ?>
+		</body>
 
 		</html>
 		<?php
 	}
 
-	private function setRequiresJs(){
+	private function setRequiresJs()
+	{
 		Principal::getInstance()->requireJS([
 			'/assets/js/script.js'
 		]);
@@ -264,6 +203,3 @@ class Home
 }
 
 $frm_consulta = new Home;
-
-
-

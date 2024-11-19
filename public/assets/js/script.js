@@ -1,8 +1,10 @@
+// Sidebar toogle button
 function toggleMenu() {
   const navLinks = document.querySelector(".nav-links");
   navLinks.classList.toggle("active");
 }
 
+// Anonymous message box
 document.addEventListener("DOMContentLoaded", function () {
     const anonimoCheckbox = document.getElementById("anonimo");
     const camposContato = document.getElementById("campos-contato");
@@ -26,3 +28,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     anonimoCheckbox.addEventListener("change", toggleCamposContato);
 });
+
+// Copy donation key
+function copyPixKey() {
+    const pixKey = "#pix-key"; // Replace with your actual Pix key
+    navigator.clipboard.writeText(pixKey);
+    alert("Chave PIX copiada!");
+}

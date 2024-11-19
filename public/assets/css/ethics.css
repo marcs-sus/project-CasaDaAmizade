@@ -6,6 +6,10 @@ body {
   margin: 0px;
 }
 
+main {
+  min-height: 100vh;
+}
+
 .etica_principal_imagem {
   width: 100%;
   height: 261px;
@@ -105,6 +109,7 @@ body {
   text-align: right;
   color: #3d429a;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .etica_principal_grid_link > a:hover {

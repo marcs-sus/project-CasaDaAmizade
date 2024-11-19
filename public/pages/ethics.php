@@ -7,9 +7,14 @@
     <title>Ética</title>
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/ethics.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
 </head>
 
 <body>
+    <!-- Header section -->
+    <?php include "../includes/navbar.php" ?>
+
+    <!-- Content Section -->
     <main class="etica_principal">
         <div class="etica_principal_imagem">
             <h1 class="etica_principal_imagem_titulo">Ética</h1>

@@ -91,13 +91,8 @@ class Home
 				<ul class="nav-links">
 					<li class="nav"><a href="pages/about.php">Quem Somos</a></li>
 					<li class="nav"><a href="pages/activities.php">Atividade</a></li>
-					<li class="nav-dropdown">
-						<a href="pages/transparency.php">Transparência</a>
-						<ul class="dropdown-content">
-							<li class="dpdw"><a href="pages/ethics.php">Ética</a></li>
-						</ul>
-					</li>
-					<li class="nav"><a href="pages/contact.php">Fale Conosco</a></li>
+					<li class="nav"><a href="pages/transparency.php">Transparência</a></li>
+					<li class="nav"><a href="pages/ethics.php">Ética</a></li>
 					<li><a href="pages/donations.php" class="donate-btn">DOE AGORA!</a></li>
 				</ul>
 			</nav>

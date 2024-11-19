@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="../assets/css/normalize.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/navbar.css">
-
     <link rel="stylesheet" href="../assets/css/transparency.css">
 </head>
 

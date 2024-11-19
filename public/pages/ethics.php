@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ética</title>
     <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
     <link rel="stylesheet" href="../assets/css/ethics.css">
     <link rel="stylesheet" href="../assets/css/navbar.css">
 </head>
@@ -62,6 +63,9 @@
                     target="_blank">Ver o Código de Ética e Conduta completo</a></span>
         </section>
     </main>
+
+    <!-- Footer section -->
+    <?php include '../includes/footer.php'; ?>
 
     <!-- Additional Scripts -->
     <script src="/assets/js/script.js"></script>

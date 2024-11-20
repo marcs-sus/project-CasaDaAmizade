@@ -194,6 +194,7 @@ class Home
 					<div class="f-footer-image">
 						<img src="../assets/img/logo.png" alt="Logo">
 					</div>
+					<div class="f-split"></div>
 					<!-- Form -->
 					<div class="f-formulario-contato" action="#">
 						<h5 class="f-tit" id="categoria">Fale Conosco</h5>

@@ -1,5 +1,6 @@
 footer {
   position: sticky;
+  bottom: 0;
   background-color: rgb(61, 66, 154);
   padding: 10px;
 }
@@ -22,6 +23,7 @@ footer {
   height: auto;
 }
 
+.f-footer-image,
 .f-formulario-contato,
 .f-detalhes-contato,
 .f-localizacao,

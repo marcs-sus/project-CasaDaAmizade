@@ -1,6 +1,4 @@
 footer {
-  position: sticky;
-  bottom: 0;
   background-color: rgb(61, 66, 154);
   padding: 10px;
 }
@@ -130,9 +128,6 @@ footer label {
 /* LMAO */
 
 @media (max-width: 768px) {
-  footer {
-    position: relative;
-  }
   .f-tudo {
       display: flex;
       flex-direction: column;

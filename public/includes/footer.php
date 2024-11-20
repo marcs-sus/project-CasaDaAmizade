@@ -1,5 +1,6 @@
 <footer>
     <div class="f-tudo">
+        <!-- Logo -->
         <div class="f-footer-image">
             <img src="../assets/img/logo.png" alt="Logo">
         </div>
@@ -7,10 +8,10 @@
         <div class="f-formulario-contato" action="#">
             <h5 class="f-tit" id="categoria">Fale Conosco</h5>
             <form method="post">
-                <div id="campos-contato">
+                <div class="f-campos-contato" id="campos-contato">
                     <!-- Name -->
                     <input class="f-input1" type="text" id="nome" name="nome" placeholder="Nome" required>
-
+                        <br>
                     <!-- E-mail -->
                     <input class="f-input2" type="email" id="email" name="email" placeholder="E-mail" required>
                 </div>
@@ -34,6 +35,7 @@
 
         <div class="f-split"></div>
 
+        <!-- Contato -->
         <div class="f-detalhes-contato">
             <h5 class="f-tit">Contatos</h5>
             <p><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
@@ -54,6 +56,7 @@
 
         <div class="f-split"></div>
 
+        <!-- Localização -->
         <div class="f-localizacao">
             <h5 class="f-tit">Localização</h5>
             <p><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
@@ -65,6 +68,7 @@
 
         <div class="f-split"></div>
 
+        <!-- Redes Sociais -->
         <div class="f-redes-sociais">
             <h5 class="f-tit">Redes Sociais</h5>
             <a href="#"><img src="../assets/img/facebook.png" alt="Facebook"></a>
@@ -72,6 +76,7 @@
         </div>
     </div>
 
+    <!-- Rodape Inferior -->
     <div class="f-rodape-inferior">
         <p>Todos os Direitos Reservados Casa da Amizade © 2024</p>
     </div>

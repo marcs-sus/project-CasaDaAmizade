@@ -29,6 +29,7 @@ footer {
   margin-bottom: 10px;
 }
 
+
 .f-split {
   flex: 1;
   max-width: 10px;
@@ -66,7 +67,6 @@ footer {
   background-color: white;
   color: black;
 }
-
 .f-tit {
   font-size: 1.5rem;
 }
@@ -78,38 +78,81 @@ footer {
   font-size: 1rem;
 }
 
+footer h5,
+footer p,
+footer label {
+  color: white;
+}
+
+/* Form */
+
+.f-campos-contato {
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.f-input1, 
+.f-input2 {
+    width: 100%;
+    padding: 10px; 
+    box-sizing: border-box;
+    font-size: 14px;
+    max-width: 190px;
+    min-width: 190px;
+}
+
 .f-input1 {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-top: transparent;
   border-right: transparent;
   border-left: transparent;
-  max-width: 174px;
 }
 
 .f-input2 {
   border: transparent;
-  max-width: 174px;
 }
 
 .f-textarea {
   border: none;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  max-width: 250px;
-  max-height: 175px;
-  min-width: 150px;
+  max-width: 186px;
+  min-width: 186px;
+  max-height: 150px;
   min-height: 100px;
 }
 
-footer h5,
-footer p,
-footer label {
-  color: white;
-}
+/* LMAO */
 
-footer h5,
-footer p,
-footer label {
-  color: white;
+@media (max-width: 768px) {
+  .f-tudo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+  }
+
+  .f-footer-image img,
+  .f-formulario-contato,
+  .f-detalhes-contato,
+  .f-localizacao,
+  .f-redes-sociais {
+      width: 100%;
+      text-align: center;
+  }
+
+  .f-redes-sociais a {
+      margin: 0 5px;
+  }
+
+  .f-split {
+      display: none;
+  }
+
+  .f-rodape-inferior {
+      text-align: center;
+      margin-top: 20px;
+  }
 }

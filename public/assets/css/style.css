@@ -134,6 +134,20 @@ body {
   object-fit: cover;
 }
 
+@media (max-width: 1024px) {
+  .principal {
+    min-height: 0;
+  }
+  .principal_subtitulo {
+    margin: 40px 2px 5px 10px;
+    padding-left: 10px;
+  }
+
+  .principal_grid {
+    margin: 20px 20px;
+  }
+}
+
 @media (max-width: 1021px) {
   .principal_capa > h1 {
     text-transform: uppercase;

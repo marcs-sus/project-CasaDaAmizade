@@ -127,7 +127,7 @@ footer label {
 
 /* LMAO */
 
-@media (max-width: 768px) {
+@media (max-width: 778px) {
   .f-tudo {
       display: flex;
       flex-direction: column;

@@ -1,3 +1,8 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .transparency-section {
   font-family: Arial, sans-serif;
   background-image: url("../img/transparency_background.png");

@@ -130,6 +130,9 @@ footer label {
 /* LMAO */
 
 @media (max-width: 768px) {
+  footer {
+    position: relative;
+  }
   .f-tudo {
       display: flex;
       flex-direction: column;

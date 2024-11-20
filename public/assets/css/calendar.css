@@ -133,18 +133,27 @@ main {
   main {
     min-height: 100vh;
   }
+ 
+    
   .calendar-wrapper {
       flex-direction: column;
       align-items: center;
   }
 
-  .calendar-container,
-  .events-info {
+  .calendar-container{
       margin: 10px 0;
       width: 100%;
       max-width: 700px;
       min-height: 500px;
       align-content: center;
+  }
+
+  .events-info {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 700px;
+    align-content: center;
+
   }
 
   .header button {

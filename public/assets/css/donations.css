@@ -74,22 +74,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #d3d3d3;
+  background-color: #e0e0f9;
   color: #333;
-  font-size: 2rem;
+  font-size: 24px;
   font-weight: bold;
   padding: 10px 20px;
   margin: 25px;
   border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 100px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgb(0, 0, 0);
-  transition: all 0.2s ease-in-out;
+  transition: all 0.08s ease-in-out;
+  gap: 8px;
+  text-wrap: nowrap;
 }
 
 .copy-button:hover {
-  background-color: #242424;
-  color: #fff;
+  background-color: #b8b7f5;
+  box-shadow: 0 1px 2px rgb(0, 0, 0);
+  border: 2px solid black;
+  color: #222;
 }
 
 @media screen and (max-width: 768px) {

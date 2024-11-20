@@ -99,8 +99,8 @@ footer label {
     padding: 10px; 
     box-sizing: border-box;
     font-size: 14px;
-    max-width: 190px;
-    min-width: 190px;
+    max-width: 233px;
+    min-width: 233px;
 }
 
 .f-input1 {
@@ -119,9 +119,9 @@ footer label {
   border: none;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  max-width: 186px;
-  min-width: 186px;
-  max-height: 150px;
+  max-width: 230px;
+  min-width: 230px;
+  max-height: 250px;
   min-height: 100px;
 }
 

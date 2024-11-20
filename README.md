@@ -8,6 +8,8 @@ This project is part of a course assignment in **Information Systems (Sistemas d
 
 The purpose of this project is to build a website for the non-profit organization **Casa da Amizade**. The site will help showcase their services, projects, news, and provide easy contact options for visitors.
 
+## Version 1.0
+
 ## Technologies Used
 
 - HTML5

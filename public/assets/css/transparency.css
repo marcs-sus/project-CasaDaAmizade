@@ -23,9 +23,10 @@ body {
 }
 
 .transparency-title {
-  font-size: 5rem;
+  font-size: 50px;
   color: #002060;
   margin-bottom: 2vh;
+  justify-content: center;
 }
 
 .transparency-text {
